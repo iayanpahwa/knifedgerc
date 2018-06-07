@@ -1,0 +1,2036 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="Design Lots">
+		<link rel="icon" href="favicon.ico">
+		
+		<title>Ultimate Sport</title>
+		
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" type="text/css" href="./library/bs/css/bootstrap.min.css">
+		
+		<!-- Menu Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="./library/css/menuzord/menuzord.css">
+		<link rel="stylesheet" type="text/css" href="./library/css/menuzord/menuzord-animations.css">
+		<link rel="stylesheet" type="text/css" href="./library/css/menuzord/skins/menuzord-border-top.css">
+		
+		<!-- RS5.0 Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="./library/js/revolution/css/settings.css">
+		<link rel="stylesheet" type="text/css" href="./library/js/revolution/css/layers.css">
+		<link rel="stylesheet" type="text/css" href="./library/js/revolution/css/navigation.css"> 
+		
+		<!-- Forms -->
+		<link rel="stylesheet" type="text/css" href="./library/js/skyforms/css/sky-forms.css"> 
+		
+		<!-- Style Sheets -->
+		<link rel="stylesheet" type="text/css" href="./library/css/ie10-viewport-bug-workaround.css">
+		<link rel="stylesheet" type="text/css" href="./library/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="./library/css/iconmoon.css">
+		<link rel="stylesheet" type="text/css" href="./library/js/owl-carousel/owl.css">
+		<link rel="stylesheet" type="text/css" href="./library/js/fancybox/jquery.fancybox.css">
+		<link rel="stylesheet" type="text/css" href="./library/js/anijs/anicollection.css">
+		<link rel="stylesheet" type="text/css" href="./library/js/tooltipster/tooltipster.bundle.min.css">
+		<link rel="stylesheet" type="text/css" href="./library/js/slidebars/slidebars.css">
+		<link rel="stylesheet" type="text/css" href="./library/css/library.css">
+		<link rel="stylesheet" type="text/css" href="./library/css/responsive.css">
+		
+		<!-- Custom styles for this template -->
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<!-- Place RTL Style Sheet here -->
+		
+		
+		<!--[if lt IE 9]>
+			<script src="./library/bs/js/html5shiv.min.js"></script>
+			<script src="./library/bs/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	
+	
+	
+	<body class="">
+  
+    
+	    <!-- Start Full Screen Overlay -->
+	    <div class="canvas-overlay">
+	    	<!-- Close Button -->
+	    	<a class="overlay-btn btn-closer" href="#"></a>
+	    	<!-- Content Container -->
+	    	<div class="container" data-anijs="if: scroll, on:window, do: fadeInDown animated, before: scrollReveal, after: $fireOnce removeAnim ">
+	    		<h2>Search Website</h2>
+	    		<form class="search-hero">
+	    			<div class="input-group">
+	    				<label class="input">
+		    				<input type="text" class="form-control" placeholder="Search for...">
+	    				</label>
+	    				<span class="input-group-btn">
+	    					<button class="btn btn-success" type="button">Search</button>
+	    				</span>
+	    			</div>
+	    		</form>
+	
+	    		<br/><br/>
+	    		<div class="row">
+	    			<div class="col-sm-4">
+			    		<h3>Quick Links</h3>
+			    		<ul class="list-styled list-bordered">
+			    			<li><a href="index.html">Home page</a></li>
+			    			<li><a href="teams.html">Our teams</a></li>
+			    			<li><a href="contact.html">Get in touch</a></li>
+			    		</ul>
+	    			</div>
+	    			
+	    			<div class="col-sm-4">
+	    				<h3>Recent Posts</h3>
+	    				<ul class="list-styled list-bordered">
+	    					<li><a href="post-standard.html">Nominated club of the year</a></li>
+	    					<li><a href="post-standard.html">Pre season camp success</a></li>
+	    					<li><a href="post-standard.html">Road to the grand finals</a></li>
+	    				</ul>
+	    			</div>
+	    			
+	    			<div class="col-sm-4">
+	    				<h3>Follow Us</h3>
+	    				<ul class="social-links sl-vertical list-bordered">
+	    					<li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
+	    					<li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+	    					<li><a href="#"><i class="fa fa-globe"></i>Website</a></li>
+	    				</ul>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!-- End Full Screen Overlay -->
+	    
+	    
+	    
+		
+		<!-- Start Header -->
+		<header id="header">
+			
+			<!-- Start Pre Header -->
+			<nav class="pre-header">
+				<div class="container">
+					<div class="head-left">
+						<ul class="social-links sl-circle">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-globe"></i></a></li>
+						</ul>	
+					</div>
+					
+					<div class="head-right">
+						<strong>Next Game:</strong> <div id="clock"></div>
+					</div>	
+				</div>
+			</nav>
+			<!-- End Pre Header -->
+			
+			
+			
+			<!-- Start Main Header -->
+			<nav class="main-header header-reveal">
+			  <div class="container">
+				<!-- Start Menu -->
+				<div id="menuzord" class="menuzord">
+					<div class="head-left">
+						<a href="index.html" class="menuzord-brand">
+							<!-- Sport <div class="tag-line">Sporting Club Theme</div> -->
+							<img class="logo-img" src="img/logo@2x.png" alt="Logo" />
+						</a>
+					</div>
+					
+					<ul class="menuzord-menu head-right">
+						<li class="active"><a href="index.html">Home Pages</a>
+							<ul class="dropdown">
+								<li><a href="index.html">Home 1</a></li>
+								<li><a href="index-2.html">Home 2</a></li>
+								<li><a href="index-3.html">Home 3</a></li>
+								<li><a href="index-4.html">Home 4</a></li>
+							</ul>
+						</li>
+						<li><a href="header-layouts.html">Feature Pages</a>
+							<ul class="dropdown">
+								<li><a href="events.html">Event Listings</a>
+									<ul class="dropdown">
+										<li><a href="events.html">Events List</a></li>
+										<li><a href="events-calendar.html">Event Calendar</a></li>
+										<li><a href="event-timetable.html">Event Timetable</a></li>
+										<li><a href="event.html">Single Event</a></li>
+									</ul>
+								</li>
+								<li><a href="fixtures.html">Fixtures &amp; Tables</a>
+									<ul class="dropdown">
+										<li><a href="fixtures.html">Game Fixtures</a></li>
+										<li><a href="fixtures-alt.html">Game Fixtures Alt</a></li>
+										<li><a href="points-leaderboard.html">Points Leaderboard</a></li>
+									</ul>
+								</li>
+								<li><a href="gallery-isotope.html">Galleries</a>
+									<ul class="dropdown">
+										<li><a href="gallery-isotope.html">Gallery Isotope</a></li>
+										<li><a href="gallery-slider.html">Gallery Slider</a></li>
+										<li><a href="gallery-grid.html">Gallery Grid</a></li>
+										<li><a href="gallery-video.html">Gallery Video</a></li>
+										<li><a href="gallery-lightbox.html">Gallery Lightbox</a></li>
+										<li><a href="gallery-project.html">Gallery Project</a></li>
+									</ul>
+								</li>
+								<li><a href="teams.html">Teams</a>
+									<ul class="dropdown">
+										<li><a href="teams.html">Teams Overview</a></li>
+										<li><a href="team-single.html">Team Single</a></li>
+										<li><a href="teams-member.html">Team Member</a></li>
+									</ul>
+								</li>
+								<li><a href="shop.html">Online Store</a>
+									<ul class="dropdown">
+										<li><a href="shop.html">Store Catalogue</a></li>
+										<li><a href="shop-item.html">Store Item</a></li>
+										<li><a href="shop-cart.html">Store Cart</a></li>
+										<li><a href="shop-checkout.html">Store Checkout</a></li>
+									</ul>
+								</li>
+								<li><a href="pricing.html">Pricing</a>
+									<ul class="dropdown">
+										<li><a href="pricing.html">Membership Price</a></li>
+										<li><a href="pricing-vert.html">Membership Price Alt</a></li>
+									</ul>
+								</li>
+								<li><a href="sitemap.html">Sitemap</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="faq.html">Frequent Questions</a></li>	
+								<li><a href="typography.html">Typography</a></li>
+								<li><a href="form.html">Forms</a></li>
+								<li><a href="icons.html">Icons Sets</a></li>
+								<li><a href="widgets.html">Widgets</a></li>
+								<li><a href="page-not-found.html">404 page</a></li>
+								<li><a href="header-layouts.html">Header Layouts</a></li>
+							</ul>      
+						</li>
+						<li><a href="#">MegaMenu</a>
+							<div class="megamenu">
+								<!-- Start Row -->
+								<div class="row">
+									<div class="col-md-6">
+										<h4>Recent News</h4>
+										<div class="menuzord-tabs">
+											<ul class="menuzord-tabs-nav">
+												<li class="active"><a href="#">News 1</a></li>
+												<li><a href="#">News 2</a></li>
+												<li><a href="#">News 3</a></li>
+											</ul>
+											<!-- tab content -->
+											<div class="menuzord-tabs-content active">
+												<img src="http://placehold.it/900x600" alt="fill" class="pull-left col-xs-3">
+												<h5 class="title">Team takes the win</h5>
+												<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consecte posuere velit turras mattis consectetur purus sit posuere erat a ante venenatis...<a class="read-more" href="post-standard.html">Read More</a></p>
+											</div>
+											<div class="menuzord-tabs-content">
+												<img src="http://placehold.it/900x600" alt="fill" class="pull-left col-xs-3">
+												<h5 class="title">Season Presentations</h5>
+												<p>Aenean lacinia bibendum nulla sed consecte posuere velit turras mattis consectetur purus. Nullam id dolor id nibh ultri ciesve hicula ut id elit sit erat a ante venatis...<a class="read-more" href="post-standard.html">Read More</a></p>
+											</div>
+											<div class="menuzord-tabs-content">
+												<img src="http://placehold.it/900x600" alt="fill" class="pull-left col-xs-3">
+												<h5 class="title">Coach for award</h5>
+												<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consecte posuere velit turras mattis consectetur purus sit posuere erat a ante venenatis...<a class="read-more" href="post-standard.html">Read More</a></p>
+											</div>
+										</div>
+									</div>
+										
+									<div class="col-md-3">
+										<h4>List</h4>
+										<ul class="list-styled">
+											<li>Integer molestie lorem at massa</li>
+											<li>Nulla volutpat aliquam velit</li>
+											<li>Integer molestie lorem at massa</li>
+											<li>Facilisis in pretium nisl aliquet</li>
+											<li>Nulla volutpat aliquam velit</li>
+											<li>Integer molestie lorem at massa</li>
+											<li>Nulla volutpat aliquam velit</li>
+										</ul>
+									</div>
+										
+									<div class="col-md-3">
+										<h4>Sign In Form</h4>
+										<form>
+											<div class="form-group">
+												<label class="sr-only" for="exampleInputEmail3">Email address</label>
+												<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+											</div>
+											<div class="form-group">
+												<label class="sr-only" for="exampleInputPassword3">Password</label>
+												<input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+											</div>
+											<button type="submit" class="btn btn-default">Sign in</button>
+										</form>		
+									</div>
+								</div><!--/.row -->       
+							</div>
+						</li>
+						<li><a href="layout-grid.html">Blog Layouts</a>
+							<ul class="dropdown">
+								<li><a href="layout-grid.html">Grid Layouts</a>
+									<ul class="dropdown dropdown-left">
+										<li><a href="layout-grid-2.html">Grid 2 Column</a></li>
+										<li><a href="layout-grid-3.html">Grid 3 Column</a></li>
+										<li><a href="layout-grid-4.html">Grid 4 Column</a></li>
+										<li><a href="layout-bricks.html">Grid Bricks</a></li>
+									</ul>
+								</li>
+								<li><a href="layout-side-left.html">Sidebar Layouts</a>
+									<ul class="dropdown dropdown-left">
+										<li><a href="layout-side-left.html">Sidebar left</a></li>
+										<li><a href="layout-side-right.html">Sidebar Right</a></li>
+										<li><a href="layout-side-left-right.html">Sidebar Left &amp; Right</a></li>
+										<li><a href="layout-side-mini-main.html">Sidebar Mini &amp; Main</a></li>
+									</ul>
+								</li>
+								<li><a href="post-standard.html">Post Layouts</a>
+									<ul class="dropdown dropdown-left">
+										<li><a href="post-standard.html">Post Standard</a></li>
+										<li><a href="post-video.html">Post Video</a></li>
+										<li><a href="post-gallery.html">Post Gallery</a></li>
+										<li><a href="post-review.html">Post Review</a></li>
+										<li><a href="post-feature.html">Post Big Feature</a></li>
+										<li><a href="post-feature-parallax.html">Post Parallax Feature</a></li>
+										<li><a href="post-narrow.html">Post Narrow</a></li>
+									</ul>
+								</li>
+								<li><a href="archive-list.html">Archive List</a></li>
+								<li><a href="archive-standard.html">Archive Standard</a></li>
+							</ul>
+						</li>
+						<li class="overlay-tigger">
+							<a class="overlay-btn btn-open" href="#"><em class="fa fa-search"></em></a>
+						</li>	
+					</ul>
+				</div><!--/.menuzord -->
+			  </div>
+			</nav>
+			<!-- End Main Header -->
+			
+			
+			<!-- Start Post Header -->
+			<nav class="post-header">
+				<div class="container">
+					<div class="head-left">
+						<ul class="mini-nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="layout-grid.html">Blog</a>
+								<ul class="mini-sub-menu">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="layout-grid.html">Blog</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					
+					<div class="head-right">
+						<em class="fa fa-phone-square feat-color"></em> 1432 543 654
+					</div>	
+				</div>
+			</nav>
+			<!-- End Post Header -->
+			
+			
+		</header>
+		<!-- End Header -->
+		
+		
+		
+	    
+	    
+	    
+		<!-- Start Main Content -->
+		<main class="main-content">
+			<div class="container body-content">
+				<!-- Page Header -->
+				<div class="page-title">
+					<h1>Font Awesome Icon Set</h1>
+					<p class="lead">Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.</p>
+				</div>
+		
+		
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Web Application Icons</h3>		
+						<ul class="icons-list">
+							<li><span class="fa fa-adjust"></span> fa fa-adjust</li>
+							<li><span class="fa fa-american-sign-language-interpreting"></span> fa fa-american-sign-language-interpreting</li>
+							<li><span class="fa fa-anchor"></span> fa fa-anchor</li>
+							<li><span class="fa fa-archive"></span> fa fa-archive</li>
+							<li><span class="fa fa-area-chart"></span> fa fa-area-chart</li>
+							<li><span class="fa fa-arrows"></span> fa fa-arrows</li>
+							<li><span class="fa fa-arrows-h"></span> fa fa-arrows-h</li>
+							<li><span class="fa fa-arrows-v"></span> fa fa-arrows-v</li>
+							<li><span class="fa fa-asl-interpreting"></span> fa fa-asl-interpreting  </li>
+							<li><span class="fa fa-assistive-listening-systems"></span> fa fa-assistive-listening-systems</li>
+							<li><span class="fa fa-asterisk"></span> fa fa-asterisk</li>
+							<li><span class="fa fa-at"></span> fa fa-at</li>
+							<li><span class="fa fa-audio-description"></span> fa fa-audio-description</li>
+							<li><span class="fa fa-automobile"></span> fa fa-automobile  </li>
+							<li><span class="fa fa-balance-scale"></span> fa fa-balance-scale</li>
+							<li><span class="fa fa-ban"></span> fa fa-ban</li>
+							<li><span class="fa fa-bank"></span> fa fa-bank  </li>
+							<li><span class="fa fa-bar-chart"></span> fa fa-bar-chart</li>
+							<li><span class="fa fa-bar-chart-o"></span> fa fa-bar-chart-o  </li>
+							<li><span class="fa fa-barcode"></span> fa fa-barcode</li>
+							<li><span class="fa fa-bars"></span> fa fa-bars</li>
+							<li><span class="fa fa-battery-0"></span> fa fa-battery-0  </li>
+							<li><span class="fa fa-battery-1"></span> fa fa-battery-1  </li>
+							<li><span class="fa fa-battery-2"></span> fa fa-battery-2  </li>
+							<li><span class="fa fa-battery-3"></span> fa fa-battery-3  </li>
+							<li><span class="fa fa-battery-4"></span> fa fa-battery-4  </li>
+							<li><span class="fa fa-battery-empty"></span> fa fa-battery-empty</li>
+							<li><span class="fa fa-battery-full"></span> fa fa-battery-full</li>
+							<li><span class="fa fa-battery-half"></span> fa fa-battery-half</li>
+							<li><span class="fa fa-battery-quarter"></span> fa fa-battery-quarter</li>
+							<li><span class="fa fa-battery-three-quarters"></span> fa fa-battery-three-quarters</li>
+							<li><span class="fa fa-bed"></span> fa fa-bed</li>
+							<li><span class="fa fa-beer"></span> fa fa-beer</li>
+							<li><span class="fa fa-bell"></span> fa fa-bell</li>
+							<li><span class="fa fa-bell-o"></span> fa fa-bell-o</li>
+							<li><span class="fa fa-bell-slash"></span> fa fa-bell-slash</li>
+							<li><span class="fa fa-bell-slash-o"></span> fa fa-bell-slash-o</li>
+							<li><span class="fa fa-bicycle"></span> fa fa-bicycle</li>
+							<li><span class="fa fa-binoculars"></span> fa fa-binoculars</li>
+							<li><span class="fa fa-birthday-cake"></span> fa fa-birthday-cake</li>
+							<li><span class="fa fa-blind"></span> fa fa-blind</li>
+							<li><span class="fa fa-bluetooth"></span> fa fa-bluetooth</li>
+							<li><span class="fa fa-bluetooth-b"></span> fa fa-bluetooth-b</li>
+							<li><span class="fa fa-bolt"></span> fa fa-bolt</li>
+							<li><span class="fa fa-bomb"></span> fa fa-bomb</li>
+							<li><span class="fa fa-book"></span> fa fa-book</li>
+							<li><span class="fa fa-bookmark"></span> fa fa-bookmark</li>
+							<li><span class="fa fa-bookmark-o"></span> fa fa-bookmark-o</li>
+							<li><span class="fa fa-braille"></span> fa fa-braille</li>
+							<li><span class="fa fa-briefcase"></span> fa fa-briefcase</li>
+							<li><span class="fa fa-bug"></span> fa fa-bug</li>
+							<li><span class="fa fa-building"></span> fa fa-building</li>
+							<li><span class="fa fa-building-o"></span> fa fa-building-o</li>
+							<li><span class="fa fa-bullhorn"></span> fa fa-bullhorn</li>
+							<li><span class="fa fa-bullseye"></span> fa fa-bullseye</li>
+							<li><span class="fa fa-bus"></span> fa fa-bus</li>
+							<li><span class="fa fa-cab"></span> fa fa-cab  </li>
+							<li><span class="fa fa-calculator"></span> fa fa-calculator</li>
+							<li><span class="fa fa-calendar"></span> fa fa-calendar</li>
+							<li><span class="fa fa-calendar-check-o"></span> fa fa-calendar-check-o</li>
+							<li><span class="fa fa-calendar-minus-o"></span> fa fa-calendar-minus-o</li>
+							<li><span class="fa fa-calendar-o"></span> fa fa-calendar-o</li>
+							<li><span class="fa fa-calendar-plus-o"></span> fa fa-calendar-plus-o</li>
+							<li><span class="fa fa-calendar-times-o"></span> fa fa-calendar-times-o</li>
+							<li><span class="fa fa-camera"></span> fa fa-camera</li>
+							<li><span class="fa fa-camera-retro"></span> fa fa-camera-retro</li>
+							<li><span class="fa fa-car"></span> fa fa-car</li>
+							<li><span class="fa fa-caret-square-o-down"></span> fa fa-caret-square-o-down</li>
+							<li><span class="fa fa-caret-square-o-left"></span> fa fa-caret-square-o-left</li>
+							<li><span class="fa fa-caret-square-o-right"></span> fa fa-caret-square-o-right</li>
+							<li><span class="fa fa-caret-square-o-up"></span> fa fa-caret-square-o-up</li>
+							<li><span class="fa fa-cart-arrow-down"></span> fa fa-cart-arrow-down</li>
+							<li><span class="fa fa-cart-plus"></span> fa fa-cart-plus</li>
+							<li><span class="fa fa-cc"></span> fa fa-cc</li>
+							<li><span class="fa fa-certificate"></span> fa fa-certificate</li>
+							<li><span class="fa fa-check"></span> fa fa-check</li>
+							<li><span class="fa fa-check-circle"></span> fa fa-check-circle</li>
+							<li><span class="fa fa-check-circle-o"></span> fa fa-check-circle-o</li>
+							<li><span class="fa fa-check-square"></span> fa fa-check-square</li>
+							<li><span class="fa fa-check-square-o"></span> fa fa-check-square-o</li>
+							<li><span class="fa fa-child"></span> fa fa-child</li>
+							<li><span class="fa fa-circle"></span> fa fa-circle</li>
+							<li><span class="fa fa-circle-o"></span> fa fa-circle-o</li>
+							<li><span class="fa fa-circle-o-notch"></span> fa fa-circle-o-notch</li>
+							<li><span class="fa fa-circle-thin"></span> fa fa-circle-thin</li>
+							<li><span class="fa fa-clock-o"></span> fa fa-clock-o</li>
+							<li><span class="fa fa-clone"></span> fa fa-clone</li>
+							<li><span class="fa fa-close"></span> fa fa-close  </li>
+							<li><span class="fa fa-cloud"></span> fa fa-cloud</li>
+							<li><span class="fa fa-cloud-download"></span> fa fa-cloud-download</li>
+							<li><span class="fa fa-cloud-upload"></span> fa fa-cloud-upload</li>
+							<li><span class="fa fa-code"></span> fa fa-code</li>
+							<li><span class="fa fa-code-fork"></span> fa fa-code-fork</li>
+							<li><span class="fa fa-coffee"></span> fa fa-coffee</li>
+							<li><span class="fa fa-cog"></span> fa fa-cog</li>
+							<li><span class="fa fa-cogs"></span> fa fa-cogs</li>
+							<li><span class="fa fa-comment"></span> fa fa-comment</li>
+							<li><span class="fa fa-comment-o"></span> fa fa-comment-o</li>
+							<li><span class="fa fa-commenting"></span> fa fa-commenting</li>
+							<li><span class="fa fa-commenting-o"></span> fa fa-commenting-o</li>
+							<li><span class="fa fa-comments"></span> fa fa-comments</li>
+							<li><span class="fa fa-comments-o"></span> fa fa-comments-o</li>
+							<li><span class="fa fa-compass"></span> fa fa-compass</li>
+							<li><span class="fa fa-copyright"></span> fa fa-copyright</li>
+							<li><span class="fa fa-creative-commons"></span> fa fa-creative-commons</li>
+							<li><span class="fa fa-credit-card"></span> fa fa-credit-card</li>
+							<li><span class="fa fa-credit-card-alt"></span> fa fa-credit-card-alt</li>
+							<li><span class="fa fa-crop"></span> fa fa-crop</li>
+							<li><span class="fa fa-crosshairs"></span> fa fa-crosshairs</li>
+							<li><span class="fa fa-cube"></span> fa fa-cube</li>
+							<li><span class="fa fa-cubes"></span> fa fa-cubes</li>
+							<li><span class="fa fa-cutlery"></span> fa fa-cutlery</li>
+							<li><span class="fa fa-dashboard"></span> fa fa-dashboard  </li>
+							<li><span class="fa fa-database"></span> fa fa-database</li>
+							<li><span class="fa fa-deaf"></span> fa fa-deaf</li>
+							<li><span class="fa fa-deafness"></span> fa fa-deafness  </li>
+							<li><span class="fa fa-desktop"></span> fa fa-desktop</li>
+							<li><span class="fa fa-diamond"></span> fa fa-diamond</li>
+							<li><span class="fa fa-dot-circle-o"></span> fa fa-dot-circle-o</li>
+							<li><span class="fa fa-download"></span> fa fa-download</li>
+							<li><span class="fa fa-edit"></span> fa fa-edit  </li>
+							<li><span class="fa fa-ellipsis-h"></span> fa fa-ellipsis-h</li>
+							<li><span class="fa fa-ellipsis-v"></span> fa fa-ellipsis-v</li>
+							<li><span class="fa fa-envelope"></span> fa fa-envelope</li>
+							<li><span class="fa fa-envelope-o"></span> fa fa-envelope-o</li>
+							<li><span class="fa fa-envelope-square"></span> fa fa-envelope-square</li>
+							<li><span class="fa fa-eraser"></span> fa fa-eraser</li>
+							<li><span class="fa fa-exchange"></span> fa fa-exchange</li>
+							<li><span class="fa fa-exclamation"></span> fa fa-exclamation</li>
+							<li><span class="fa fa-exclamation-circle"></span> fa fa-exclamation-circle</li>
+							<li><span class="fa fa-exclamation-triangle"></span> fa fa-exclamation-triangle</li>
+							<li><span class="fa fa-external-link"></span> fa fa-external-link</li>
+							<li><span class="fa fa-external-link-square"></span> fa fa-external-link-square</li>
+							<li><span class="fa fa-eye"></span> fa fa-eye</li>
+							<li><span class="fa fa-eye-slash"></span> fa fa-eye-slash</li>
+							<li><span class="fa fa-eyedropper"></span> fa fa-eyedropper</li>
+							<li><span class="fa fa-fax"></span> fa fa-fax</li>
+							<li><span class="fa fa-feed"></span> fa fa-feed  </li>
+							<li><span class="fa fa-female"></span> fa fa-female</li>
+							<li><span class="fa fa-fighter-jet"></span> fa fa-fighter-jet</li>
+							<li><span class="fa fa-file-archive-o"></span> fa fa-file-archive-o</li>
+							<li><span class="fa fa-file-audio-o"></span> fa fa-file-audio-o</li>
+							<li><span class="fa fa-file-code-o"></span> fa fa-file-code-o</li>
+							<li><span class="fa fa-file-excel-o"></span> fa fa-file-excel-o</li>
+							<li><span class="fa fa-file-image-o"></span> fa fa-file-image-o</li>
+							<li><span class="fa fa-file-movie-o"></span> fa fa-file-movie-o  </li>
+							<li><span class="fa fa-file-pdf-o"></span> fa fa-file-pdf-o</li>
+							<li><span class="fa fa-file-photo-o"></span> fa fa-file-photo-o  </li>
+							<li><span class="fa fa-file-picture-o"></span> fa fa-file-picture-o  </li>
+							<li><span class="fa fa-file-powerpoint-o"></span> fa fa-file-powerpoint-o</li>
+							<li><span class="fa fa-file-sound-o"></span> fa fa-file-sound-o  </li>
+							<li><span class="fa fa-file-video-o"></span> fa fa-file-video-o</li>
+							<li><span class="fa fa-file-word-o"></span> fa fa-file-word-o</li>
+							<li><span class="fa fa-file-zip-o"></span> fa fa-file-zip-o  </li>
+							<li><span class="fa fa-film"></span> fa fa-film</li>
+							<li><span class="fa fa-filter"></span> fa fa-filter</li>
+							<li><span class="fa fa-fire"></span> fa fa-fire</li>
+							<li><span class="fa fa-fire-extinguisher"></span> fa fa-fire-extinguisher</li>
+							<li><span class="fa fa-flag"></span> fa fa-flag</li>
+							<li><span class="fa fa-flag-checkered"></span> fa fa-flag-checkered</li>
+							<li><span class="fa fa-flag-o"></span> fa fa-flag-o</li>
+							<li><span class="fa fa-flash"></span> fa fa-flash  </li>
+							<li><span class="fa fa-flask"></span> fa fa-flask</li>
+							<li><span class="fa fa-folder"></span> fa fa-folder</li>
+							<li><span class="fa fa-folder-o"></span> fa fa-folder-o</li>
+							<li><span class="fa fa-folder-open"></span> fa fa-folder-open</li>
+							<li><span class="fa fa-folder-open-o"></span> fa fa-folder-open-o</li>
+							<li><span class="fa fa-frown-o"></span> fa fa-frown-o</li>
+							<li><span class="fa fa-futbol-o"></span> fa fa-futbol-o</li>
+							<li><span class="fa fa-gamepad"></span> fa fa-gamepad</li>
+							<li><span class="fa fa-gavel"></span> fa fa-gavel</li>
+							<li><span class="fa fa-gear"></span> fa fa-gear  </li>
+							<li><span class="fa fa-gears"></span> fa fa-gears  </li>
+							<li><span class="fa fa-gift"></span> fa fa-gift</li>
+							<li><span class="fa fa-glass"></span> fa fa-glass</li>
+							<li><span class="fa fa-globe"></span> fa fa-globe</li>
+							<li><span class="fa fa-graduation-cap"></span> fa fa-graduation-cap</li>
+							<li><span class="fa fa-group"></span> fa fa-group  </li>
+							<li><span class="fa fa-hand-grab-o"></span> fa fa-hand-grab-o  </li>
+							<li><span class="fa fa-hand-lizard-o"></span> fa fa-hand-lizard-o</li>
+							<li><span class="fa fa-hand-paper-o"></span> fa fa-hand-paper-o</li>
+							<li><span class="fa fa-hand-peace-o"></span> fa fa-hand-peace-o</li>
+							<li><span class="fa fa-hand-pointer-o"></span> fa fa-hand-pointer-o</li>
+							<li><span class="fa fa-hand-rock-o"></span> fa fa-hand-rock-o</li>
+							<li><span class="fa fa-hand-scissors-o"></span> fa fa-hand-scissors-o</li>
+							<li><span class="fa fa-hand-spock-o"></span> fa fa-hand-spock-o</li>
+							<li><span class="fa fa-hand-stop-o"></span> fa fa-hand-stop-o  </li>
+							<li><span class="fa fa-hard-of-hearing"></span> fa fa-hard-of-hearing  </li>
+							<li><span class="fa fa-hashtag"></span> fa fa-hashtag</li>
+							<li><span class="fa fa-hdd-o"></span> fa fa-hdd-o</li>
+							<li><span class="fa fa-headphones"></span> fa fa-headphones</li>
+							<li><span class="fa fa-heart"></span> fa fa-heart</li>
+							<li><span class="fa fa-heart-o"></span> fa fa-heart-o</li>
+							<li><span class="fa fa-heartbeat"></span> fa fa-heartbeat</li>
+							<li><span class="fa fa-history"></span> fa fa-history</li>
+							<li><span class="fa fa-home"></span> fa fa-home</li>
+							<li><span class="fa fa-hotel"></span> fa fa-hotel  </li>
+							<li><span class="fa fa-hourglass"></span> fa fa-hourglass</li>
+							<li><span class="fa fa-hourglass-1"></span> fa fa-hourglass-1  </li>
+							<li><span class="fa fa-hourglass-2"></span> fa fa-hourglass-2  </li>
+							<li><span class="fa fa-hourglass-3"></span> fa fa-hourglass-3  </li>
+							<li><span class="fa fa-hourglass-end"></span> fa fa-hourglass-end</li>
+							<li><span class="fa fa-hourglass-half"></span> fa fa-hourglass-half</li>
+							<li><span class="fa fa-hourglass-o"></span> fa fa-hourglass-o</li>
+							<li><span class="fa fa-hourglass-start"></span> fa fa-hourglass-start</li>
+							<li><span class="fa fa-i-cursor"></span> fa fa-i-cursor</li>
+							<li><span class="fa fa-image"></span> fa fa-image  </li>
+							<li><span class="fa fa-inbox"></span> fa fa-inbox</li>
+							<li><span class="fa fa-industry"></span> fa fa-industry</li>
+							<li><span class="fa fa-info"></span> fa fa-info</li>
+							<li><span class="fa fa-info-circle"></span> fa fa-info-circle</li>
+							<li><span class="fa fa-institution"></span> fa fa-institution  </li>
+							<li><span class="fa fa-key"></span> fa fa-key</li>
+							<li><span class="fa fa-keyboard-o"></span> fa fa-keyboard-o</li>
+							<li><span class="fa fa-language"></span> fa fa-language</li>
+							<li><span class="fa fa-laptop"></span> fa fa-laptop</li>
+							<li><span class="fa fa-leaf"></span> fa fa-leaf</li>
+							<li><span class="fa fa-legal"></span> fa fa-legal  </li>
+							<li><span class="fa fa-lemon-o"></span> fa fa-lemon-o</li>
+							<li><span class="fa fa-level-down"></span> fa fa-level-down</li>
+							<li><span class="fa fa-level-up"></span> fa fa-level-up</li>
+							<li><span class="fa fa-life-bouy"></span> fa fa-life-bouy  </li>
+							<li><span class="fa fa-life-buoy"></span> fa fa-life-buoy  </li>
+							<li><span class="fa fa-life-ring"></span> fa fa-life-ring</li>
+							<li><span class="fa fa-life-saver"></span> fa fa-life-saver  </li>
+							<li><span class="fa fa-lightbulb-o"></span> fa fa-lightbulb-o</li>
+							<li><span class="fa fa-line-chart"></span> fa fa-line-chart</li>
+							<li><span class="fa fa-location-arrow"></span> fa fa-location-arrow</li>
+							<li><span class="fa fa-lock"></span> fa fa-lock</li>
+							<li><span class="fa fa-low-vision"></span> fa fa-low-vision</li>
+							<li><span class="fa fa-magic"></span> fa fa-magic</li>
+							<li><span class="fa fa-magnet"></span> fa fa-magnet</li>
+							<li><span class="fa fa-mail-forward"></span> fa fa-mail-forward  </li>
+							<li><span class="fa fa-mail-reply"></span> fa fa-mail-reply  </li>
+							<li><span class="fa fa-mail-reply-all"></span> fa fa-mail-reply-all  </li>
+							<li><span class="fa fa-male"></span> fa fa-male</li>
+							<li><span class="fa fa-map"></span> fa fa-map</li>
+							<li><span class="fa fa-map-marker"></span> fa fa-map-marker</li>
+							<li><span class="fa fa-map-o"></span> fa fa-map-o</li>
+							<li><span class="fa fa-map-pin"></span> fa fa-map-pin</li>
+							<li><span class="fa fa-map-signs"></span> fa fa-map-signs</li>
+							<li><span class="fa fa-meh-o"></span> fa fa-meh-o</li>
+							<li><span class="fa fa-microphone"></span> fa fa-microphone</li>
+							<li><span class="fa fa-microphone-slash"></span> fa fa-microphone-slash</li>
+							<li><span class="fa fa-minus"></span> fa fa-minus</li>
+							<li><span class="fa fa-minus-circle"></span> fa fa-minus-circle</li>
+							<li><span class="fa fa-minus-square"></span> fa fa-minus-square</li>
+							<li><span class="fa fa-minus-square-o"></span> fa fa-minus-square-o</li>
+							<li><span class="fa fa-mobile"></span> fa fa-mobile</li>
+							<li><span class="fa fa-mobile-phone"></span> fa fa-mobile-phone  </li>
+							<li><span class="fa fa-money"></span> fa fa-money</li>
+							<li><span class="fa fa-moon-o"></span> fa fa-moon-o</li>
+							<li><span class="fa fa-mortar-board"></span> fa fa-mortar-board  </li>
+							<li><span class="fa fa-motorcycle"></span> fa fa-motorcycle</li>
+							<li><span class="fa fa-mouse-pointer"></span> fa fa-mouse-pointer</li>
+							<li><span class="fa fa-music"></span> fa fa-music</li>
+							<li><span class="fa fa-navicon"></span> fa fa-navicon  </li>
+							<li><span class="fa fa-newspaper-o"></span> fa fa-newspaper-o</li>
+							<li><span class="fa fa-object-group"></span> fa fa-object-group</li>
+							<li><span class="fa fa-object-ungroup"></span> fa fa-object-ungroup</li>
+							<li><span class="fa fa-paint-brush"></span> fa fa-paint-brush</li>
+							<li><span class="fa fa-paper-plane"></span> fa fa-paper-plane</li>
+							<li><span class="fa fa-paper-plane-o"></span> fa fa-paper-plane-o</li>
+							<li><span class="fa fa-paw"></span> fa fa-paw</li>
+							<li><span class="fa fa-pencil"></span> fa fa-pencil</li>
+							<li><span class="fa fa-pencil-square"></span> fa fa-pencil-square</li>
+							<li><span class="fa fa-pencil-square-o"></span> fa fa-pencil-square-o</li>
+							<li><span class="fa fa-percent"></span> fa fa-percent</li>
+							<li><span class="fa fa-phone"></span> fa fa-phone</li>
+							<li><span class="fa fa-phone-square"></span> fa fa-phone-square</li>
+							<li><span class="fa fa-photo"></span> fa fa-photo  </li>
+							<li><span class="fa fa-picture-o"></span> fa fa-picture-o</li>
+							<li><span class="fa fa-pie-chart"></span> fa fa-pie-chart</li>
+							<li><span class="fa fa-plane"></span> fa fa-plane</li>
+							<li><span class="fa fa-plug"></span> fa fa-plug</li>
+							<li><span class="fa fa-plus"></span> fa fa-plus</li>
+							<li><span class="fa fa-plus-circle"></span> fa fa-plus-circle</li>
+							<li><span class="fa fa-plus-square"></span> fa fa-plus-square</li>
+							<li><span class="fa fa-plus-square-o"></span> fa fa-plus-square-o</li>
+							<li><span class="fa fa-power-off"></span> fa fa-power-off</li>
+							<li><span class="fa fa-print"></span> fa fa-print</li>
+							<li><span class="fa fa-puzzle-piece"></span> fa fa-puzzle-piece</li>
+							<li><span class="fa fa-qrcode"></span> fa fa-qrcode</li>
+							<li><span class="fa fa-question"></span> fa fa-question</li>
+							<li><span class="fa fa-question-circle"></span> fa fa-question-circle</li>
+							<li><span class="fa fa-question-circle-o"></span> fa fa-question-circle-o</li>
+							<li><span class="fa fa-quote-left"></span> fa fa-quote-left</li>
+							<li><span class="fa fa-quote-right"></span> fa fa-quote-right</li>
+							<li><span class="fa fa-random"></span> fa fa-random</li>
+							<li><span class="fa fa-recycle"></span> fa fa-recycle</li>
+							<li><span class="fa fa-refresh"></span> fa fa-refresh</li>
+							<li><span class="fa fa-registered"></span> fa fa-registered</li>
+							<li><span class="fa fa-remove"></span> fa fa-remove  </li>
+							<li><span class="fa fa-reorder"></span> fa fa-reorder  </li>
+							<li><span class="fa fa-reply"></span> fa fa-reply</li>
+							<li><span class="fa fa-reply-all"></span> fa fa-reply-all</li>
+							<li><span class="fa fa-retweet"></span> fa fa-retweet</li>
+							<li><span class="fa fa-road"></span> fa fa-road</li>
+							<li><span class="fa fa-rocket"></span> fa fa-rocket</li>
+							<li><span class="fa fa-rss"></span> fa fa-rss</li>
+							<li><span class="fa fa-rss-square"></span> fa fa-rss-square</li>
+							<li><span class="fa fa-search"></span> fa fa-search</li>
+							<li><span class="fa fa-search-minus"></span> fa fa-search-minus</li>
+							<li><span class="fa fa-search-plus"></span> fa fa-search-plus</li>
+							<li><span class="fa fa-send"></span> fa fa-send  </li>
+							<li><span class="fa fa-send-o"></span> fa fa-send-o  </li>
+							<li><span class="fa fa-server"></span> fa fa-server</li>
+							<li><span class="fa fa-share"></span> fa fa-share</li>
+							<li><span class="fa fa-share-alt"></span> fa fa-share-alt</li>
+							<li><span class="fa fa-share-alt-square"></span> fa fa-share-alt-square</li>
+							<li><span class="fa fa-share-square"></span> fa fa-share-square</li>
+							<li><span class="fa fa-share-square-o"></span> fa fa-share-square-o</li>
+							<li><span class="fa fa-shield"></span> fa fa-shield</li>
+							<li><span class="fa fa-ship"></span> fa fa-ship</li>
+							<li><span class="fa fa-shopping-bag"></span> fa fa-shopping-bag</li>
+							<li><span class="fa fa-shopping-basket"></span> fa fa-shopping-basket</li>
+							<li><span class="fa fa-shopping-cart"></span> fa fa-shopping-cart</li>
+							<li><span class="fa fa-sign-in"></span> fa fa-sign-in</li>
+							<li><span class="fa fa-sign-language"></span> fa fa-sign-language</li>
+							<li><span class="fa fa-sign-out"></span> fa fa-sign-out</li>
+							<li><span class="fa fa-signal"></span> fa fa-signal</li>
+							<li><span class="fa fa-signing"></span> fa fa-signing  </li>
+							<li><span class="fa fa-sitemap"></span> fa fa-sitemap</li>
+							<li><span class="fa fa-sliders"></span> fa fa-sliders</li>
+							<li><span class="fa fa-smile-o"></span> fa fa-smile-o</li>
+							<li><span class="fa fa-soccer-ball-o"></span> fa fa-soccer-ball-o  </li>
+							<li><span class="fa fa-sort"></span> fa fa-sort</li>
+							<li><span class="fa fa-sort-alpha-asc"></span> fa fa-sort-alpha-asc</li>
+							<li><span class="fa fa-sort-alpha-desc"></span> fa fa-sort-alpha-desc</li>
+							<li><span class="fa fa-sort-amount-asc"></span> fa fa-sort-amount-asc</li>
+							<li><span class="fa fa-sort-amount-desc"></span> fa fa-sort-amount-desc</li>
+							<li><span class="fa fa-sort-asc"></span> fa fa-sort-asc</li>
+							<li><span class="fa fa-sort-desc"></span> fa fa-sort-desc</li>
+							<li><span class="fa fa-sort-down"></span> fa fa-sort-down  </li>
+							<li><span class="fa fa-sort-numeric-asc"></span> fa fa-sort-numeric-asc</li>
+							<li><span class="fa fa-sort-numeric-desc"></span> fa fa-sort-numeric-desc</li>
+							<li><span class="fa fa-sort-up"></span> fa fa-sort-up  </li>
+							<li><span class="fa fa-space-shuttle"></span> fa fa-space-shuttle</li>
+							<li><span class="fa fa-spinner"></span> fa fa-spinner</li>
+							<li><span class="fa fa-spoon"></span> fa fa-spoon</li>
+							<li><span class="fa fa-square"></span> fa fa-square</li>
+							<li><span class="fa fa-square-o"></span> fa fa-square-o</li>
+							<li><span class="fa fa-star"></span> fa fa-star</li>
+							<li><span class="fa fa-star-half"></span> fa fa-star-half</li>
+							<li><span class="fa fa-star-half-empty"></span> fa fa-star-half-empty  </li>
+							<li><span class="fa fa-star-half-full"></span> fa fa-star-half-full  </li>
+							<li><span class="fa fa-star-half-o"></span> fa fa-star-half-o</li>
+							<li><span class="fa fa-star-o"></span> fa fa-star-o</li>
+							<li><span class="fa fa-sticky-note"></span> fa fa-sticky-note</li>
+							<li><span class="fa fa-sticky-note-o"></span> fa fa-sticky-note-o</li>
+							<li><span class="fa fa-street-view"></span> fa fa-street-view</li>
+							<li><span class="fa fa-suitcase"></span> fa fa-suitcase</li>
+							<li><span class="fa fa-sun-o"></span> fa fa-sun-o</li>
+							<li><span class="fa fa-support"></span> fa fa-support  </li>
+							<li><span class="fa fa-tablet"></span> fa fa-tablet</li>
+							<li><span class="fa fa-tachometer"></span> fa fa-tachometer</li>
+							<li><span class="fa fa-tag"></span> fa fa-tag</li>
+							<li><span class="fa fa-tags"></span> fa fa-tags</li>
+							<li><span class="fa fa-tasks"></span> fa fa-tasks</li>
+							<li><span class="fa fa-taxi"></span> fa fa-taxi</li>
+							<li><span class="fa fa-television"></span> fa fa-television</li>
+							<li><span class="fa fa-terminal"></span> fa fa-terminal</li>
+							<li><span class="fa fa-thumb-tack"></span> fa fa-thumb-tack</li>
+							<li><span class="fa fa-thumbs-down"></span> fa fa-thumbs-down</li>
+							<li><span class="fa fa-thumbs-o-down"></span> fa fa-thumbs-o-down</li>
+							<li><span class="fa fa-thumbs-o-up"></span> fa fa-thumbs-o-up</li>
+							<li><span class="fa fa-thumbs-up"></span> fa fa-thumbs-up</li>
+							<li><span class="fa fa-ticket"></span> fa fa-ticket</li>
+							<li><span class="fa fa-times"></span> fa fa-times</li>
+							<li><span class="fa fa-times-circle"></span> fa fa-times-circle</li>
+							<li><span class="fa fa-times-circle-o"></span> fa fa-times-circle-o</li>
+							<li><span class="fa fa-tint"></span> fa fa-tint</li>
+							<li><span class="fa fa-toggle-down"></span> fa fa-toggle-down  </li>
+							<li><span class="fa fa-toggle-left"></span> fa fa-toggle-left  </li>
+							<li><span class="fa fa-toggle-off"></span> fa fa-toggle-off</li>
+							<li><span class="fa fa-toggle-on"></span> fa fa-toggle-on</li>
+							<li><span class="fa fa-toggle-right"></span> fa fa-toggle-right  </li>
+							<li><span class="fa fa-toggle-up"></span> fa fa-toggle-up  </li>
+							<li><span class="fa fa-trademark"></span> fa fa-trademark</li>
+							<li><span class="fa fa-trash"></span> fa fa-trash</li>
+							<li><span class="fa fa-trash-o"></span> fa fa-trash-o</li>
+							<li><span class="fa fa-tree"></span> fa fa-tree</li>
+							<li><span class="fa fa-trophy"></span> fa fa-trophy</li>
+							<li><span class="fa fa-truck"></span> fa fa-truck</li>
+							<li><span class="fa fa-tty"></span> fa fa-tty</li>
+							<li><span class="fa fa-tv"></span> fa fa-tv  </li>
+							<li><span class="fa fa-umbrella"></span> fa fa-umbrella</li>
+							<li><span class="fa fa-universal-access"></span> fa fa-universal-access</li>
+							<li><span class="fa fa-university"></span> fa fa-university</li>
+							<li><span class="fa fa-unlock"></span> fa fa-unlock</li>
+							<li><span class="fa fa-unlock-alt"></span> fa fa-unlock-alt</li>
+							<li><span class="fa fa-unsorted"></span> fa fa-unsorted  </li>
+							<li><span class="fa fa-upload"></span> fa fa-upload</li>
+							<li><span class="fa fa-user"></span> fa fa-user</li>
+							<li><span class="fa fa-user-plus"></span> fa fa-user-plus</li>
+							<li><span class="fa fa-user-secret"></span> fa fa-user-secret</li>
+							<li><span class="fa fa-user-times"></span> fa fa-user-times</li>
+							<li><span class="fa fa-users"></span> fa fa-users</li>
+							<li><span class="fa fa-video-camera"></span> fa fa-video-camera</li>
+							<li><span class="fa fa-volume-control-phone"></span> fa fa-volume-control-phone</li>
+							<li><span class="fa fa-volume-down"></span> fa fa-volume-down</li>
+							<li><span class="fa fa-volume-off"></span> fa fa-volume-off</li>
+							<li><span class="fa fa-volume-up"></span> fa fa-volume-up</li>
+							<li><span class="fa fa-warning"></span> fa fa-warning  </li>
+							<li><span class="fa fa-wheelchair"></span> fa fa-wheelchair</li>
+							<li><span class="fa fa-wheelchair-alt"></span> fa fa-wheelchair-alt</li>
+							<li><span class="fa fa-wifi"></span> fa fa-wifi</li>
+							<li><span class="fa fa-wrench"></span> fa fa-wrench</li>
+						</ul>
+					</div>
+				</div><!--/.row -->	
+			
+		
+		
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Accessibility Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-american-sign-language-interpreting"></span> fa fa-american-sign-language-interpreting</li>
+							<li><span class="fa fa-asl-interpreting"></span> fa fa-asl-interpreting  </li>
+							<li><span class="fa fa-assistive-listening-systems"></span> fa fa-assistive-listening-systems</li>
+							<li><span class="fa fa-audio-description"></span> fa fa-audio-description</li>
+							<li><span class="fa fa-blind"></span> fa fa-blind</li>
+							<li><span class="fa fa-braille"></span> fa fa-braille</li>
+							<li><span class="fa fa-cc"></span> fa fa-cc</li>
+							<li><span class="fa fa-deaf"></span> fa fa-deaf</li>
+							<li><span class="fa fa-deafness"></span> fa fa-deafness  </li>
+							<li><span class="fa fa-hard-of-hearing"></span> fa fa-hard-of-hearing  </li>
+							<li><span class="fa fa-low-vision"></span> fa fa-low-vision</li>
+							<li><span class="fa fa-question-circle-o"></span> fa fa-question-circle-o</li>
+							<li><span class="fa fa-sign-language"></span> fa fa-sign-language</li>
+							<li><span class="fa fa-signing"></span> fa fa-signing  </li>
+							<li><span class="fa fa-tty"></span> fa fa-tty</li>
+							<li><span class="fa fa-universal-access"></span> fa fa-universal-access</li>
+							<li><span class="fa fa-volume-control-phone"></span> fa fa-volume-control-phone</li>
+							<li><span class="fa fa-wheelchair"></span> fa fa-wheelchair</li>
+							<li><span class="fa fa-wheelchair-alt"></span> fa fa-wheelchair-alt</li>
+						</ul>
+					</div>
+				</div><!--/.row -->
+			
+			
+			  
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Hand Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-hand-grab-o"></span> fa fa-hand-grab-o  </li>
+							<li><span class="fa fa-hand-lizard-o"></span> fa fa-hand-lizard-o</li>
+							<li><span class="fa fa-hand-o-down"></span> fa fa-hand-o-down</li>
+							<li><span class="fa fa-hand-o-left"></span> fa fa-hand-o-left</li>
+							<li><span class="fa fa-hand-o-right"></span> fa fa-hand-o-right</li>
+							<li><span class="fa fa-hand-o-up"></span> fa fa-hand-o-up</li>
+							<li><span class="fa fa-hand-paper-o"></span> fa fa-hand-paper-o</li>
+							<li><span class="fa fa-hand-peace-o"></span> fa fa-hand-peace-o</li>
+							<li><span class="fa fa-hand-pointer-o"></span> fa fa-hand-pointer-o</li>
+							<li><span class="fa fa-hand-rock-o"></span> fa fa-hand-rock-o</li>
+							<li><span class="fa fa-hand-scissors-o"></span> fa fa-hand-scissors-o</li>
+							<li><span class="fa fa-hand-spock-o"></span> fa fa-hand-spock-o</li>
+							<li><span class="fa fa-hand-stop-o"></span> fa fa-hand-stop-o  </li>
+							<li><span class="fa fa-thumbs-down"></span> fa fa-thumbs-down</li>
+							<li><span class="fa fa-thumbs-o-down"></span> fa fa-thumbs-o-down</li>
+							<li><span class="fa fa-thumbs-o-up"></span> fa fa-thumbs-o-up</li>
+							<li><span class="fa fa-thumbs-up"></span> fa fa-thumbs-up</li>
+						</ul>
+					</div>
+				</div><!--/.row -->
+		
+		
+			  
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Transportation Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-ambulance"></span> fa fa-ambulance</li>
+							<li><span class="fa fa-automobile"></span> fa fa-automobile  </li>
+							<li><span class="fa fa-bicycle"></span> fa fa-bicycle</li>
+							<li><span class="fa fa-bus"></span> fa fa-bus</li>
+							<li><span class="fa fa-cab"></span> fa fa-cab  </li>
+							<li><span class="fa fa-car"></span> fa fa-car</li>
+							<li><span class="fa fa-fighter-jet"></span> fa fa-fighter-jet</li>
+							<li><span class="fa fa-motorcycle"></span> fa fa-motorcycle</li>
+							<li><span class="fa fa-plane"></span> fa fa-plane</li>
+							<li><span class="fa fa-rocket"></span> fa fa-rocket</li>
+							<li><span class="fa fa-ship"></span> fa fa-ship</li>
+							<li><span class="fa fa-space-shuttle"></span> fa fa-space-shuttle</li>
+							<li><span class="fa fa-subway"></span> fa fa-subway</li>
+							<li><span class="fa fa-taxi"></span> fa fa-taxi</li>
+							<li><span class="fa fa-train"></span> fa fa-train</li>
+							<li><span class="fa fa-truck"></span> fa fa-truck</li>
+							<li><span class="fa fa-wheelchair"></span> fa fa-wheelchair</li>
+						</ul>
+					</div>
+				</div><!--/.row -->
+			
+		
+		
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Gender Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-genderless"></span> fa fa-genderless</li>
+							<li><span class="fa fa-intersex"></span> fa fa-intersex  </li>
+							<li><span class="fa fa-mars"></span> fa fa-mars</li>
+							<li><span class="fa fa-mars-double"></span> fa fa-mars-double</li>
+							<li><span class="fa fa-mars-stroke"></span> fa fa-mars-stroke</li>
+							<li><span class="fa fa-mars-stroke-h"></span> fa fa-mars-stroke-h</li>
+							<li><span class="fa fa-mars-stroke-v"></span> fa fa-mars-stroke-v</li>
+							<li><span class="fa fa-mercury"></span> fa fa-mercury</li>
+							<li><span class="fa fa-neuter"></span> fa fa-neuter</li>
+							<li><span class="fa fa-transgender"></span> fa fa-transgender</li>
+							<li><span class="fa fa-transgender-alt"></span> fa fa-transgender-alt</li>
+							<li><span class="fa fa-venus"></span> fa fa-venus</li>
+							<li><span class="fa fa-venus-double"></span> fa fa-venus-double</li>
+							<li><span class="fa fa-venus-mars"></span> fa fa-venus-mars</li>
+						</ul>
+					</div>
+				</div><!--/.row -->
+			  
+			
+		  
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">File Type Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-file"></span> fa fa-file</li>
+							<li><span class="fa fa-file-archive-o"></span> fa fa-file-archive-o</li>
+							<li><span class="fa fa-file-audio-o"></span> fa fa-file-audio-o</li>
+							<li><span class="fa fa-file-code-o"></span> fa fa-file-code-o</li>
+							<li><span class="fa fa-file-excel-o"></span> fa fa-file-excel-o</li>
+							<li><span class="fa fa-file-image-o"></span> fa fa-file-image-o</li>
+							<li><span class="fa fa-file-movie-o"></span> fa fa-file-movie-o  </li>
+							<li><span class="fa fa-file-o"></span> fa fa-file-o</li>
+							<li><span class="fa fa-file-pdf-o"></span> fa fa-file-pdf-o</li>
+							<li><span class="fa fa-file-photo-o"></span> fa fa-file-photo-o  </li>
+							<li><span class="fa fa-file-picture-o"></span> fa fa-file-picture-o  </li>
+							<li><span class="fa fa-file-powerpoint-o"></span> fa fa-file-powerpoint-o</li>
+							<li><span class="fa fa-file-sound-o"></span> fa fa-file-sound-o  </li>
+							<li><span class="fa fa-file-text"></span> fa fa-file-text</li>
+							<li><span class="fa fa-file-text-o"></span> fa fa-file-text-o</li>
+							<li><span class="fa fa-file-video-o"></span> fa fa-file-video-o</li>
+							<li><span class="fa fa-file-word-o"></span> fa fa-file-word-o</li>
+							<li><span class="fa fa-file-zip-o"></span> fa fa-file-zip-o  </li>
+						</ul>
+					</div>
+				</div><!--/.row -->
+			
+		
+		
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Spinner Icons</h3>	
+						<ul class="icons-list">
+							<li><span class="fa fa-circle-o-notch"></span> fa fa-circle-o-notch</li>
+							<li><span class="fa fa-cog"></span> fa fa-cog</li>
+							<li><span class="fa fa-gear"></span> fa fa-gear  </li>
+							<li><span class="fa fa-refresh"></span> fa fa-refresh</li>
+							<li><span class="fa fa-spinner"></span> fa fa-spinner</li>
+						</ul>
+					</div>
+				</div><!--/.row -->
+				
+		
+			  
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Form Control Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-check-square"></span> fa fa-check-square</li>
+							<li><span class="fa fa-check-square-o"></span> fa fa-check-square-o</li>
+							<li><span class="fa fa-circle"></span> fa fa-circle</li>
+							<li><span class="fa fa-circle-o"></span> fa fa-circle-o</li>
+							<li><span class="fa fa-dot-circle-o"></span> fa fa-dot-circle-o</li>
+							<li><span class="fa fa-minus-square"></span> fa fa-minus-square</li>
+							<li><span class="fa fa-minus-square-o"></span> fa fa-minus-square-o</li>
+							<li><span class="fa fa-plus-square"></span> fa fa-plus-square</li>
+							<li><span class="fa fa-plus-square-o"></span> fa fa-plus-square-o</li>
+							<li><span class="fa fa-square"></span> fa fa-square</li>
+							<li><span class="fa fa-square-o"></span> fa fa-square-o</li>
+						</ul>
+					</div>
+				</div><!--/.row -->
+		
+		
+		  
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Payment Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-cc-amex"></span> fa fa-cc-amex</li>
+							<li><span class="fa fa-cc-diners-club"></span> fa fa-cc-diners-club</li>
+							<li><span class="fa fa-cc-discover"></span> fa fa-cc-discover</li>
+							<li><span class="fa fa-cc-jcb"></span> fa fa-cc-jcb</li>
+							<li><span class="fa fa-cc-mastercard"></span> fa fa-cc-mastercard</li>
+							<li><span class="fa fa-cc-paypal"></span> fa fa-cc-paypal</li>
+							<li><span class="fa fa-cc-stripe"></span> fa fa-cc-stripe</li>
+							<li><span class="fa fa-cc-visa"></span> fa fa-cc-visa</li>
+							<li><span class="fa fa-credit-card"></span> fa fa-credit-card</li>
+							<li><span class="fa fa-credit-card-alt"></span> fa fa-credit-card-alt</li>
+							<li><span class="fa fa-google-wallet"></span> fa fa-google-wallet</li>
+							<li><span class="fa fa-paypal"></span> fa fa-paypal</li>
+						</ul>
+					</div>
+				</div><!--/.row -->
+			
+			
+				  
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Chart Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-area-chart"></span> fa fa-area-chart</li>
+							<li><span class="fa fa-bar-chart"></span> fa fa-bar-chart</li>
+							<li><span class="fa fa-bar-chart-o"></span> fa fa-bar-chart-o  </li>
+							<li><span class="fa fa-line-chart"></span> fa fa-line-chart</li>
+							<li><span class="fa fa-pie-chart"></span> fa fa-pie-chart</li>
+						</ul>
+					</div>
+				</div><!--/.row -->
+			
+		
+		  
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Currency Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-bitcoin"></span> fa fa-bitcoin  </li>
+							<li><span class="fa fa-btc"></span> fa fa-btc</li>
+							<li><span class="fa fa-cny"></span> fa fa-cny  </li>
+							<li><span class="fa fa-dollar"></span> fa fa-dollar  </li>
+							<li><span class="fa fa-eur"></span> fa fa-eur</li>
+							<li><span class="fa fa-euro"></span> fa fa-euro  </li>
+							<li><span class="fa fa-gbp"></span> fa fa-gbp</li>
+							<li><span class="fa fa-gg"></span> fa fa-gg</li>
+							<li><span class="fa fa-gg-circle"></span> fa fa-gg-circle</li>
+							<li><span class="fa fa-ils"></span> fa fa-ils</li>
+							<li><span class="fa fa-inr"></span> fa fa-inr</li>
+							<li><span class="fa fa-jpy"></span> fa fa-jpy</li>
+							<li><span class="fa fa-krw"></span> fa fa-krw</li>
+							<li><span class="fa fa-money"></span> fa fa-money</li>
+							<li><span class="fa fa-rmb"></span> fa fa-rmb  </li>
+							<li><span class="fa fa-rouble"></span> fa fa-rouble  </li>
+							<li><span class="fa fa-rub"></span> fa fa-rub</li>
+							<li><span class="fa fa-ruble"></span> fa fa-ruble  </li>
+							<li><span class="fa fa-rupee"></span> fa fa-rupee  </li>
+							<li><span class="fa fa-shekel"></span> fa fa-shekel  </li>
+							<li><span class="fa fa-sheqel"></span> fa fa-sheqel  </li>
+							<li><span class="fa fa-try"></span> fa fa-try</li>
+							<li><span class="fa fa-turkish-lira"></span> fa fa-turkish-lira  </li>
+							<li><span class="fa fa-usd"></span> fa fa-usd</li>
+							<li><span class="fa fa-won"></span> fa fa-won  </li>
+							<li><span class="fa fa-yen"></span> fa fa-yen  </li>
+						</ul>
+					</div>
+				</div><!--/.row -->
+		
+		
+		
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Text Editor Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-align-center"></span> fa fa-align-center</li>
+							<li><span class="fa fa-align-justify"></span> fa fa-align-justify</li>
+							<li><span class="fa fa-align-left"></span> fa fa-align-left</li>
+							<li><span class="fa fa-align-right"></span> fa fa-align-right</li>
+							<li><span class="fa fa-bold"></span> fa fa-bold</li>
+							<li><span class="fa fa-chain"></span> fa fa-chain  </li>
+							<li><span class="fa fa-chain-broken"></span> fa fa-chain-broken</li>
+							<li><span class="fa fa-clipboard"></span> fa fa-clipboard</li>
+							<li><span class="fa fa-columns"></span> fa fa-columns</li>
+							<li><span class="fa fa-copy"></span> fa fa-copy  </li>
+							<li><span class="fa fa-cut"></span> fa fa-cut  </li>
+							<li><span class="fa fa-dedent"></span> fa fa-dedent  </li>
+							<li><span class="fa fa-eraser"></span> fa fa-eraser</li>
+							<li><span class="fa fa-file"></span> fa fa-file</li>
+							<li><span class="fa fa-file-o"></span> fa fa-file-o</li>
+							<li><span class="fa fa-file-text"></span> fa fa-file-text</li>
+							<li><span class="fa fa-file-text-o"></span> fa fa-file-text-o</li>
+							<li><span class="fa fa-files-o"></span> fa fa-files-o</li>
+							<li><span class="fa fa-floppy-o"></span> fa fa-floppy-o</li>
+							<li><span class="fa fa-font"></span> fa fa-font</li>
+							<li><span class="fa fa-header"></span> fa fa-header</li>
+							<li><span class="fa fa-indent"></span> fa fa-indent</li>
+							<li><span class="fa fa-italic"></span> fa fa-italic</li>
+							<li><span class="fa fa-link"></span> fa fa-link</li>
+							<li><span class="fa fa-list"></span> fa fa-list</li>
+							<li><span class="fa fa-list-alt"></span> fa fa-list-alt</li>
+							<li><span class="fa fa-list-ol"></span> fa fa-list-ol</li>
+							<li><span class="fa fa-list-ul"></span> fa fa-list-ul</li>
+							<li><span class="fa fa-outdent"></span> fa fa-outdent</li>
+							<li><span class="fa fa-paperclip"></span> fa fa-paperclip</li>
+							<li><span class="fa fa-paragraph"></span> fa fa-paragraph</li>
+							<li><span class="fa fa-paste"></span> fa fa-paste  </li>
+							<li><span class="fa fa-repeat"></span> fa fa-repeat</li>
+							<li><span class="fa fa-rotate-left"></span> fa fa-rotate-left  </li>
+							<li><span class="fa fa-rotate-right"></span> fa fa-rotate-right  </li>
+							<li><span class="fa fa-save"></span> fa fa-save  </li>
+							<li><span class="fa fa-scissors"></span> fa fa-scissors</li>
+							<li><span class="fa fa-strikethrough"></span> fa fa-strikethrough</li>
+							<li><span class="fa fa-subscript"></span> fa fa-subscript</li>
+							<li><span class="fa fa-superscript"></span> fa fa-superscript</li>
+							<li><span class="fa fa-table"></span> fa fa-table</li>
+							<li><span class="fa fa-text-height"></span> fa fa-text-height</li>
+							<li><span class="fa fa-text-width"></span> fa fa-text-width</li>
+							<li><span class="fa fa-th"></span> fa fa-th</li>
+							<li><span class="fa fa-th-large"></span> fa fa-th-large</li>
+							<li><span class="fa fa-th-list"></span> fa fa-th-list</li>
+							<li><span class="fa fa-underline"></span> fa fa-underline</li>
+							<li><span class="fa fa-undo"></span> fa fa-undo</li>
+							<li><span class="fa fa-unlink"></span> fa fa-unlink  </li>
+						</ul>
+					</div>
+				</div><!--/.row -->
+			  
+			
+			  
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Directional Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-angle-double-down" ></span> fa fa-angle-double-down</li>
+							<li><span class="fa fa-angle-double-left" ></span> fa fa-angle-double-left</li>
+							<li><span class="fa fa-angle-double-right" ></span> fa fa-angle-double-right</li>
+							<li><span class="fa fa-angle-double-up" ></span> fa fa-angle-double-up</li>
+							<li><span class="fa fa-angle-down" ></span> fa fa-angle-down</li>
+							<li><span class="fa fa-angle-left" ></span> fa fa-angle-left</li>
+							<li><span class="fa fa-angle-right" ></span> fa fa-angle-right</li>
+							<li><span class="fa fa-angle-up" ></span> fa fa-angle-up</li>
+							<li><span class="fa fa-arrow-circle-down" ></span> fa fa-arrow-circle-down</li>
+							<li><span class="fa fa-arrow-circle-left" ></span> fa fa-arrow-circle-left</li>
+							<li><span class="fa fa-arrow-circle-o-down" ></span> fa fa-arrow-circle-o-down</li>
+							<li><span class="fa fa-arrow-circle-o-left" ></span> fa fa-arrow-circle-o-left</li>
+							<li><span class="fa fa-arrow-circle-o-right" ></span> fa fa-arrow-circle-o-right</li>
+							<li><span class="fa fa-arrow-circle-o-up" ></span> fa fa-arrow-circle-o-up</li>
+							<li><span class="fa fa-arrow-circle-right" ></span> fa fa-arrow-circle-right</li>
+							<li><span class="fa fa-arrow-circle-up" ></span> fa fa-arrow-circle-up</li>
+							<li><span class="fa fa-arrow-down" ></span> fa fa-arrow-down</li>
+							<li><span class="fa fa-arrow-left" ></span> fa fa-arrow-left</li>
+							<li><span class="fa fa-arrow-right" ></span> fa fa-arrow-right</li>
+							<li><span class="fa fa-arrow-up" ></span> fa fa-arrow-up</li>
+							<li><span class="fa fa-arrows" ></span> fa fa-arrows</li>
+							<li><span class="fa fa-arrows-alt" ></span> fa fa-arrows-alt</li>
+							<li><span class="fa fa-arrows-h" ></span> fa fa-arrows-h</li>
+							<li><span class="fa fa-arrows-v" ></span> fa fa-arrows-v</li>
+							<li><span class="fa fa-caret-down" ></span> fa fa-caret-down</li>
+							<li><span class="fa fa-caret-left" ></span> fa fa-caret-left</li>
+							<li><span class="fa fa-caret-right" ></span> fa fa-caret-right</li>
+							<li><span class="fa fa-caret-square-o-down" ></span> fa fa-caret-square-o-down</li>
+							<li><span class="fa fa-caret-square-o-left" ></span> fa fa-caret-square-o-left</li>
+							<li><span class="fa fa-caret-square-o-right" ></span> fa fa-caret-square-o-right</li>
+							<li><span class="fa fa-caret-square-o-up" ></span> fa fa-caret-square-o-up</li>
+							<li><span class="fa fa-caret-up" ></span> fa fa-caret-up</li>
+							<li><span class="fa fa-chevron-circle-down" ></span> fa fa-chevron-circle-down</li>
+							<li><span class="fa fa-chevron-circle-left" ></span> fa fa-chevron-circle-left</li>
+							<li><span class="fa fa-chevron-circle-right" ></span> fa fa-chevron-circle-right</li>
+							<li><span class="fa fa-chevron-circle-up" ></span> fa fa-chevron-circle-up</li>
+							<li><span class="fa fa-chevron-down" ></span> fa fa-chevron-down</li>
+							<li><span class="fa fa-chevron-left" ></span> fa fa-chevron-left</li>
+							<li><span class="fa fa-chevron-right" ></span> fa fa-chevron-right</li>
+							<li><span class="fa fa-chevron-up" ></span> fa fa-chevron-up</li>
+							<li><span class="fa fa-exchange" ></span> fa fa-exchange</li>
+							<li><span class="fa fa-hand-o-down" ></span> fa fa-hand-o-down</li>
+							<li><span class="fa fa-hand-o-left" ></span> fa fa-hand-o-left</li>
+							<li><span class="fa fa-hand-o-right" ></span> fa fa-hand-o-right</li>
+							<li><span class="fa fa-hand-o-up" ></span> fa fa-hand-o-up</li>
+							<li><span class="fa fa-long-arrow-down" ></span> fa fa-long-arrow-down</li>
+							<li><span class="fa fa-long-arrow-left" ></span> fa fa-long-arrow-left</li>
+							<li><span class="fa fa-long-arrow-right" ></span> fa fa-long-arrow-right</li>
+							<li><span class="fa fa-long-arrow-up" ></span> fa fa-long-arrow-up</li>
+							<li><span class="fa fa-toggle-down" ></span> fa fa-toggle-down  </li>
+							<li><span class="fa fa-toggle-left" ></span> fa fa-toggle-left  </li>
+							<li><span class="fa fa-toggle-right" ></span> fa fa-toggle-right  </li>
+							<li><span class="fa fa-toggle-up" ></span> fa fa-toggle-up  </li>
+						</ul>
+					</div>
+				</div><!--/.row -->
+			
+		
+		
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Video Player Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-arrows-alt"></span> fa fa-arrows-alt</li>  
+							<li><span class="fa fa-backward"></span> fa fa-backward</li>  
+							<li><span class="fa fa-compress"></span> fa fa-compress</li>  
+							<li><span class="fa fa-eject"></span> fa fa-eject</li>  
+							<li><span class="fa fa-expand"></span> fa fa-expand</li>  
+							<li><span class="fa fa-fast-backward"></span> fa fa-fast-backward</li>  
+							<li><span class="fa fa-fast-forward"></span> fa fa-fast-forward</li>  
+							<li><span class="fa fa-forward"></span> fa fa-forward</li>  
+							<li><span class="fa fa-pause"></span> fa fa-pause</li>  
+							<li><span class="fa fa-pause-circle"></span> fa fa-pause-circle</li>  
+							<li><span class="fa fa-pause-circle-o"></span> fa fa-pause-circle-o</li>  
+							<li><span class="fa fa-play"></span> fa fa-play</li>  
+							<li><span class="fa fa-play-circle"></span> fa fa-play-circle</li>  
+							<li><span class="fa fa-play-circle-o"></span> fa fa-play-circle-o</li>  
+							<li><span class="fa fa-random"></span> fa fa-random</li>  
+							<li><span class="fa fa-step-backward"></span> fa fa-step-backward</li>  
+							<li><span class="fa fa-step-forward"></span> fa fa-step-forward</li>  
+							<li><span class="fa fa-stop"></span> fa fa-stop</li>  
+							<li><span class="fa fa-stop-circle"></span> fa fa-stop-circle</li>  
+							<li><span class="fa fa-stop-circle-o"></span> fa fa-stop-circle-o</li>  
+							<li><span class="fa fa-youtube-play"></span> fa fa-youtube-play</li>  
+						</ul>	
+					</div>
+				</div><!--/.row -->
+			
+			
+			
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Brand Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-500px"></span> fa fa-500px</li>
+							<li><span class="fa fa-adn"></span> fa fa-adn</li>
+							<li><span class="fa fa-amazon"></span> fa fa-amazon</li>
+							<li><span class="fa fa-android"></span> fa fa-android</li>
+							<li><span class="fa fa-angellist"></span> fa fa-angellist</li>
+							<li><span class="fa fa-apple"></span> fa fa-apple</li>
+							<li><span class="fa fa-behance"></span> fa fa-behance</li>
+							<li><span class="fa fa-behance-square"></span> fa fa-behance-square</li>
+							<li><span class="fa fa-bitbucket"></span> fa fa-bitbucket</li>
+							<li><span class="fa fa-bitbucket-square"></span> fa fa-bitbucket-square</li>
+							<li><span class="fa fa-bitcoin"></span> fa fa-bitcoin  </li>
+							<li><span class="fa fa-black-tie"></span> fa fa-black-tie</li>
+							<li><span class="fa fa-bluetooth"></span> fa fa-bluetooth</li>
+							<li><span class="fa fa-bluetooth-b"></span> fa fa-bluetooth-b</li>
+							<li><span class="fa fa-btc"></span> fa fa-btc</li>
+							<li><span class="fa fa-buysellads"></span> fa fa-buysellads</li>
+							<li><span class="fa fa-cc-amex"></span> fa fa-cc-amex</li>
+							<li><span class="fa fa-cc-diners-club"></span> fa fa-cc-diners-club</li>
+							<li><span class="fa fa-cc-discover"></span> fa fa-cc-discover</li>
+							<li><span class="fa fa-cc-jcb"></span> fa fa-cc-jcb</li>
+							<li><span class="fa fa-cc-mastercard"></span> fa fa-cc-mastercard</li>
+							<li><span class="fa fa-cc-paypal"></span> fa fa-cc-paypal</li>
+							<li><span class="fa fa-cc-stripe"></span> fa fa-cc-stripe</li>
+							<li><span class="fa fa-cc-visa"></span> fa fa-cc-visa</li>
+							<li><span class="fa fa-chrome"></span> fa fa-chrome</li>
+							<li><span class="fa fa-codepen"></span> fa fa-codepen</li>
+							<li><span class="fa fa-codiepie"></span> fa fa-codiepie</li>
+							<li><span class="fa fa-connectdevelop"></span> fa fa-connectdevelop</li>
+							<li><span class="fa fa-contao"></span> fa fa-contao</li>
+							<li><span class="fa fa-css3"></span> fa fa-css3</li>
+							<li><span class="fa fa-dashcube"></span> fa fa-dashcube</li>
+							<li><span class="fa fa-delicious"></span> fa fa-delicious</li>
+							<li><span class="fa fa-deviantart"></span> fa fa-deviantart</li>
+							<li><span class="fa fa-digg"></span> fa fa-digg</li>
+							<li><span class="fa fa-dribbble"></span> fa fa-dribbble</li>
+							<li><span class="fa fa-dropbox"></span> fa fa-dropbox</li>
+							<li><span class="fa fa-drupal"></span> fa fa-drupal</li>
+							<li><span class="fa fa-edge"></span> fa fa-edge</li>
+							<li><span class="fa fa-empire"></span> fa fa-empire</li>
+							<li><span class="fa fa-envira"></span> fa fa-envira</li>
+							<li><span class="fa fa-expeditedssl"></span> fa fa-expeditedssl</li>
+							<li><span class="fa fa-fa"></span> fa fa-fa  </li>
+							<li><span class="fa fa-facebook"></span> fa fa-facebook</li>
+							<li><span class="fa fa-facebook-f"></span> fa fa-facebook-f  </li>
+							<li><span class="fa fa-facebook-official"></span> fa fa-facebook-official</li>
+							<li><span class="fa fa-facebook-square"></span> fa fa-facebook-square</li>
+							<li><span class="fa fa-firefox"></span> fa fa-firefox</li>
+							<li><span class="fa fa-first-order"></span> fa fa-first-order</li>
+							<li><span class="fa fa-flickr"></span> fa fa-flickr</li>
+							<li><span class="fa fa-font-awesome"></span> fa fa-font-awesome</li>
+							<li><span class="fa fa-fonticons"></span> fa fa-fonticons</li>
+							<li><span class="fa fa-fort-awesome"></span> fa fa-fort-awesome</li>
+							<li><span class="fa fa-forumbee"></span> fa fa-forumbee</li>
+							<li><span class="fa fa-foursquare"></span> fa fa-foursquare</li>
+							<li><span class="fa fa-ge"></span> fa fa-ge  </li>
+							<li><span class="fa fa-get-pocket"></span> fa fa-get-pocket</li>
+							<li><span class="fa fa-gg"></span> fa fa-gg</li>
+							<li><span class="fa fa-gg-circle"></span> fa fa-gg-circle</li>
+							<li><span class="fa fa-git"></span> fa fa-git</li>
+							<li><span class="fa fa-git-square"></span> fa fa-git-square</li>
+							<li><span class="fa fa-github"></span> fa fa-github</li>
+							<li><span class="fa fa-github-alt"></span> fa fa-github-alt</li>
+							<li><span class="fa fa-github-square"></span> fa fa-github-square</li>
+							<li><span class="fa fa-gitlab"></span> fa fa-gitlab</li>
+							<li><span class="fa fa-gittip"></span> fa fa-gittip  </li>
+							<li><span class="fa fa-glide"></span> fa fa-glide</li>
+							<li><span class="fa fa-glide-g"></span> fa fa-glide-g</li>
+							<li><span class="fa fa-google"></span> fa fa-google</li>
+							<li><span class="fa fa-google-plus"></span> fa fa-google-plus</li>
+							<li><span class="fa fa-google-plus-circle"></span> fa fa-google-plus-circle  </li>
+							<li><span class="fa fa-google-plus-official"></span> fa fa-google-plus-official</li>
+							<li><span class="fa fa-google-plus-square"></span> fa fa-google-plus-square</li>
+							<li><span class="fa fa-google-wallet"></span> fa fa-google-wallet</li>
+							<li><span class="fa fa-gratipay"></span> fa fa-gratipay</li>
+							<li><span class="fa fa-hacker-news"></span> fa fa-hacker-news</li>
+							<li><span class="fa fa-houzz"></span> fa fa-houzz</li>
+							<li><span class="fa fa-html5"></span> fa fa-html5</li>
+							<li><span class="fa fa-instagram"></span> fa fa-instagram</li>
+							<li><span class="fa fa-internet-explorer"></span> fa fa-internet-explorer</li>
+							<li><span class="fa fa-ioxhost"></span> fa fa-ioxhost</li>
+							<li><span class="fa fa-joomla"></span> fa fa-joomla</li>
+							<li><span class="fa fa-jsfiddle"></span> fa fa-jsfiddle</li>
+							<li><span class="fa fa-lastfm"></span> fa fa-lastfm</li>
+							<li><span class="fa fa-lastfm-square"></span> fa fa-lastfm-square</li>
+							<li><span class="fa fa-leanpub"></span> fa fa-leanpub</li>
+							<li><span class="fa fa-linkedin"></span> fa fa-linkedin</li>
+							<li><span class="fa fa-linkedin-square"></span> fa fa-linkedin-square</li>
+							<li><span class="fa fa-linux"></span> fa fa-linux</li>
+							<li><span class="fa fa-maxcdn"></span> fa fa-maxcdn</li>
+							<li><span class="fa fa-meanpath"></span> fa fa-meanpath</li>
+							<li><span class="fa fa-medium"></span> fa fa-medium</li>
+							<li><span class="fa fa-mixcloud"></span> fa fa-mixcloud</li>
+							<li><span class="fa fa-modx"></span> fa fa-modx</li>
+							<li><span class="fa fa-odnoklassniki"></span> fa fa-odnoklassniki</li>
+							<li><span class="fa fa-odnoklassniki-square"></span> fa fa-odnoklassniki-square</li>
+							<li><span class="fa fa-opencart"></span> fa fa-opencart</li>
+							<li><span class="fa fa-openid"></span> fa fa-openid</li>
+							<li><span class="fa fa-opera"></span> fa fa-opera</li>
+							<li><span class="fa fa-optin-monster"></span> fa fa-optin-monster</li>
+							<li><span class="fa fa-pagelines"></span> fa fa-pagelines</li>
+							<li><span class="fa fa-paypal"></span> fa fa-paypal</li>
+							<li><span class="fa fa-pied-piper"></span> fa fa-pied-piper</li>
+							<li><span class="fa fa-pied-piper-alt"></span> fa fa-pied-piper-alt</li>
+							<li><span class="fa fa-pied-piper-pp"></span> fa fa-pied-piper-pp</li>
+							<li><span class="fa fa-pinterest"></span> fa fa-pinterest</li>
+							<li><span class="fa fa-pinterest-p"></span> fa fa-pinterest-p</li>
+							<li><span class="fa fa-pinterest-square"></span> fa fa-pinterest-square</li>
+							<li><span class="fa fa-product-hunt"></span> fa fa-product-hunt</li>
+							<li><span class="fa fa-qq"></span> fa fa-qq</li>
+							<li><span class="fa fa-ra"></span> fa fa-ra  </li>
+							<li><span class="fa fa-rebel"></span> fa fa-rebel</li>
+							<li><span class="fa fa-reddit"></span> fa fa-reddit</li>
+							<li><span class="fa fa-reddit-alien"></span> fa fa-reddit-alien</li>
+							<li><span class="fa fa-reddit-square"></span> fa fa-reddit-square</li>
+							<li><span class="fa fa-renren"></span> fa fa-renren</li>
+							<li><span class="fa fa-resistance"></span> fa fa-resistance  </li>
+							<li><span class="fa fa-safari"></span> fa fa-safari</li>
+							<li><span class="fa fa-scribd"></span> fa fa-scribd</li>
+							<li><span class="fa fa-sellsy"></span> fa fa-sellsy</li>
+							<li><span class="fa fa-share-alt"></span> fa fa-share-alt</li>
+							<li><span class="fa fa-share-alt-square"></span> fa fa-share-alt-square</li>
+							<li><span class="fa fa-shirtsinbulk"></span> fa fa-shirtsinbulk</li>
+							<li><span class="fa fa-simplybuilt"></span> fa fa-simplybuilt</li>
+							<li><span class="fa fa-skyatlas"></span> fa fa-skyatlas</li>
+							<li><span class="fa fa-skype"></span> fa fa-skype</li>
+							<li><span class="fa fa-slack"></span> fa fa-slack</li>
+							<li><span class="fa fa-slideshare"></span> fa fa-slideshare</li>
+							<li><span class="fa fa-snapchat"></span> fa fa-snapchat</li>
+							<li><span class="fa fa-snapchat-ghost"></span> fa fa-snapchat-ghost</li>
+							<li><span class="fa fa-snapchat-square"></span> fa fa-snapchat-square</li>
+							<li><span class="fa fa-soundcloud"></span> fa fa-soundcloud</li>
+							<li><span class="fa fa-spotify"></span> fa fa-spotify</li>
+							<li><span class="fa fa-stack-exchange"></span> fa fa-stack-exchange</li>
+							<li><span class="fa fa-stack-overflow"></span> fa fa-stack-overflow</li>
+							<li><span class="fa fa-steam"></span> fa fa-steam</li>
+							<li><span class="fa fa-steam-square"></span> fa fa-steam-square</li>
+							<li><span class="fa fa-stumbleupon"></span> fa fa-stumbleupon</li>
+							<li><span class="fa fa-stumbleupon-circle"></span> fa fa-stumbleupon-circle</li>
+							<li><span class="fa fa-tencent-weibo"></span> fa fa-tencent-weibo</li>
+							<li><span class="fa fa-themeisle"></span> fa fa-themeisle</li>
+							<li><span class="fa fa-trello"></span> fa fa-trello</li>
+							<li><span class="fa fa-tripadvisor"></span> fa fa-tripadvisor</li>
+							<li><span class="fa fa-tumblr"></span> fa fa-tumblr</li>
+							<li><span class="fa fa-tumblr-square"></span> fa fa-tumblr-square</li>
+							<li><span class="fa fa-twitch"></span> fa fa-twitch</li>
+							<li><span class="fa fa-twitter"></span> fa fa-twitter</li>
+							<li><span class="fa fa-twitter-square"></span> fa fa-twitter-square</li>
+							<li><span class="fa fa-usb"></span> fa fa-usb</li>
+							<li><span class="fa fa-viacoin"></span> fa fa-viacoin</li>
+							<li><span class="fa fa-viadeo"></span> fa fa-viadeo</li>
+							<li><span class="fa fa-viadeo-square"></span> fa fa-viadeo-square</li>
+							<li><span class="fa fa-vimeo"></span> fa fa-vimeo</li>
+							<li><span class="fa fa-vimeo-square"></span> fa fa-vimeo-square</li>
+							<li><span class="fa fa-vine"></span> fa fa-vine</li>
+							<li><span class="fa fa-vk"></span> fa fa-vk</li>
+							<li><span class="fa fa-wechat"></span> fa fa-wechat  </li>
+							<li><span class="fa fa-weibo"></span> fa fa-weibo</li>
+							<li><span class="fa fa-weixin"></span> fa fa-weixin</li>
+							<li><span class="fa fa-whatsapp"></span> fa fa-whatsapp</li>
+							<li><span class="fa fa-wikipedia-w"></span> fa fa-wikipedia-w</li>
+							<li><span class="fa fa-windows"></span> fa fa-windows</li>
+							<li><span class="fa fa-wordpress"></span> fa fa-wordpress</li>
+							<li><span class="fa fa-wpbeginner"></span> fa fa-wpbeginner</li>
+							<li><span class="fa fa-wpforms"></span> fa fa-wpforms</li>
+							<li><span class="fa fa-xing"></span> fa fa-xing</li>
+							<li><span class="fa fa-xing-square"></span> fa fa-xing-square</li>
+							<li><span class="fa fa-y-combinator"></span> fa fa-y-combinator</li>
+							<li><span class="fa fa-y-combinator-square"></span> fa fa-y-combinator-square  </li>
+							<li><span class="fa fa-yahoo"></span> fa fa-yahoo</li>
+							<li><span class="fa fa-yc"></span> fa fa-yc  </li>
+							<li><span class="fa fa-yc-square"></span> fa fa-yc-square  </li>
+							<li><span class="fa fa-yelp"></span> fa fa-yelp</li>
+							<li><span class="fa fa-yoast"></span> fa fa-yoast</li>
+							<li><span class="fa fa-youtube"></span> fa fa-youtube</li>
+							<li><span class="fa fa-youtube-play"></span> fa fa-youtube-play</li>
+							<li><span class="fa fa-youtube-square"></span> fa fa-youtube-square</li>
+						</ul>
+					</div>
+				</div><!--/.row -->
+			
+		
+		  
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="page-header">Medical Icons</h3>
+						<ul class="icons-list">
+							<li><span class="fa fa-ambulance" ></span> fa fa-ambulance</li>
+							<li><span class="fa fa-h-square" ></span> fa fa-h-square</li>
+							<li><span class="fa fa-heart" ></span> fa fa-heart</li>
+							<li><span class="fa fa-heart-o" ></span> fa fa-heart-o</li>
+							<li><span class="fa fa-heartbeat" ></span> fa fa-heartbeat</li>
+							<li><span class="fa fa-hospital-o" ></span> fa fa-hospital-o</li>
+							<li><span class="fa fa-medkit" ></span> fa fa-medkit</li>
+							<li><span class="fa fa-plus-square" ></span> fa fa-plus-square</li>
+							<li><span class="fa fa-stethoscope" ></span> fa fa-stethoscope</li>
+							<li><span class="fa fa-user-md" ></span> fa fa-user-md</li>
+							<li><span class="fa fa-wheelchair" ></span> fa fa-wheelchair</li>
+						</ul>
+					</div>
+				</div><!--/.row -->	
+			
+			
+			
+				<!-- Page Header -->
+				<div class="page-header">
+					<h1>Glyphicons Icon Set</h1>
+					<p class="lead">Glyphicons is a library of precisely prepared monochromatic icons and symbols, created with an emphasis to simplicity and easy orientation.</p>
+				</div>
+			
+			
+				<!-- Start Row -->
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="icons-list">
+							<li><span class="glyphicon glyphicon-asterisk"></span> <span>glyphicon glyphicon-asterisk</span></li>
+							<li><span class="glyphicon glyphicon-plus"></span> <span>glyphicon glyphicon-plus</span></li>
+							<li><span class="glyphicon glyphicon-euro"></span> <span>glyphicon glyphicon-euro</span></li>
+							<li><span class="glyphicon glyphicon-eur"></span> <span>glyphicon glyphicon-eur</span></li>
+							<li><span class="glyphicon glyphicon-minus"></span> <span>glyphicon glyphicon-minus</span></li>
+							<li><span class="glyphicon glyphicon-cloud"></span> <span>glyphicon glyphicon-cloud</span></li>
+							<li><span class="glyphicon glyphicon-envelope"></span> <span>glyphicon glyphicon-envelope</span></li>
+							<li><span class="glyphicon glyphicon-pencil"></span> <span>glyphicon glyphicon-pencil</span></li>
+							<li><span class="glyphicon glyphicon-glass"></span> <span>glyphicon glyphicon-glass</span></li>
+							<li><span class="glyphicon glyphicon-music"></span> <span>glyphicon glyphicon-music</span></li>
+							<li><span class="glyphicon glyphicon-search"></span> <span>glyphicon glyphicon-search</span></li>
+							<li><span class="glyphicon glyphicon-heart"></span> <span>glyphicon glyphicon-heart</span></li>
+							<li><span class="glyphicon glyphicon-star"></span> <span>glyphicon glyphicon-star</span></li>
+							<li><span class="glyphicon glyphicon-star-empty"></span> <span>glyphicon glyphicon-star-empty</span></li>
+							<li><span class="glyphicon glyphicon-user"></span> <span>glyphicon glyphicon-user</span></li>
+							<li><span class="glyphicon glyphicon-film"></span> <span>glyphicon glyphicon-film</span></li>
+							<li><span class="glyphicon glyphicon-th-large"></span> <span>glyphicon glyphicon-th-large</span></li>
+							<li><span class="glyphicon glyphicon-th"></span> <span>glyphicon glyphicon-th</span></li>
+							<li><span class="glyphicon glyphicon-th-list"></span> <span>glyphicon glyphicon-th-list</span></li>
+							<li><span class="glyphicon glyphicon-ok"></span> <span>glyphicon glyphicon-ok</span></li>
+							<li><span class="glyphicon glyphicon-remove"></span> <span>glyphicon glyphicon-remove</span></li>
+							<li><span class="glyphicon glyphicon-zoom-in"></span> <span>glyphicon glyphicon-zoom-in</span></li>
+							<li><span class="glyphicon glyphicon-zoom-out"></span> <span>glyphicon glyphicon-zoom-out</span></li>
+							<li><span class="glyphicon glyphicon-off"></span> <span>glyphicon glyphicon-off</span></li>
+							<li><span class="glyphicon glyphicon-signal"></span> <span>glyphicon glyphicon-signal</span></li>
+							<li><span class="glyphicon glyphicon-cog"></span> <span>glyphicon glyphicon-cog</span></li>
+							<li><span class="glyphicon glyphicon-trash"></span> <span>glyphicon glyphicon-trash</span></li>
+							<li><span class="glyphicon glyphicon-home"></span> <span>glyphicon glyphicon-home</span></li>
+							<li><span class="glyphicon glyphicon-file"></span> <span>glyphicon glyphicon-file</span></li>
+							<li><span class="glyphicon glyphicon-time"></span> <span>glyphicon glyphicon-time</span></li>
+							<li><span class="glyphicon glyphicon-road"></span> <span>glyphicon glyphicon-road</span></li>
+							<li><span class="glyphicon glyphicon-download-alt"></span> <span>glyphicon glyphicon-download-alt</span></li>
+							<li><span class="glyphicon glyphicon-download"></span> <span>glyphicon glyphicon-download</span></li>
+							<li><span class="glyphicon glyphicon-upload"></span> <span>glyphicon glyphicon-upload</span></li>
+							<li><span class="glyphicon glyphicon-inbox"></span> <span>glyphicon glyphicon-inbox</span></li>
+							<li><span class="glyphicon glyphicon-play-circle"></span> <span>glyphicon glyphicon-play-circle</span></li>
+							<li><span class="glyphicon glyphicon-repeat"></span> <span>glyphicon glyphicon-repeat</span></li>
+							<li><span class="glyphicon glyphicon-refresh"></span> <span>glyphicon glyphicon-refresh</span></li>
+							<li><span class="glyphicon glyphicons-list"></span> <span>glyphicon glyphicons-list</span></li>
+							<li><span class="glyphicon glyphicon-lock"></span> <span>glyphicon glyphicon-lock</span></li>
+							<li><span class="glyphicon glyphicon-flag"></span> <span>glyphicon glyphicon-flag</span></li>
+							<li><span class="glyphicon glyphicon-headphones"></span> <span>glyphicon glyphicon-headphones</span></li>
+							<li><span class="glyphicon glyphicon-volume-off"></span> <span>glyphicon glyphicon-volume-off</span></li>
+							<li><span class="glyphicon glyphicon-volume-down"></span> <span>glyphicon glyphicon-volume-down</span></li>
+							<li><span class="glyphicon glyphicon-volume-up"></span> <span>glyphicon glyphicon-volume-up</span></li>
+							<li><span class="glyphicon glyphicon-qrcode"></span> <span>glyphicon glyphicon-qrcode</span></li>
+							<li><span class="glyphicon glyphicon-barcode"></span> <span>glyphicon glyphicon-barcode</span></li>
+							<li><span class="glyphicon glyphicon-tag"></span> <span>glyphicon glyphicon-tag</span></li>
+							<li><span class="glyphicon glyphicon-tags"></span> <span>glyphicon glyphicon-tags</span></li>
+							<li><span class="glyphicon glyphicon-book"></span> <span>glyphicon glyphicon-book</span></li>
+							<li><span class="glyphicon glyphicon-bookmark"></span> <span>glyphicon glyphicon-bookmark</span></li>
+							<li><span class="glyphicon glyphicon-print"></span> <span>glyphicon glyphicon-print</span></li>
+							<li><span class="glyphicon glyphicon-camera"></span> <span>glyphicon glyphicon-camera</span></li>
+							<li><span class="glyphicon glyphicon-font"></span> <span>glyphicon glyphicon-font</span></li>
+							<li><span class="glyphicon glyphicon-bold"></span> <span>glyphicon glyphicon-bold</span></li>
+							<li><span class="glyphicon glyphicon-italic"></span> <span>glyphicon glyphicon-italic</span></li>
+							<li><span class="glyphicon glyphicon-text-height"></span> <span>glyphicon glyphicon-text-height</span></li>
+							<li><span class="glyphicon glyphicon-text-width"></span> <span>glyphicon glyphicon-text-width</span></li>
+							<li><span class="glyphicon glyphicon-align-left"></span> <span>glyphicon glyphicon-align-left</span></li>
+							<li><span class="glyphicon glyphicon-align-center"></span> <span>glyphicon glyphicon-align-center</span></li>
+							<li><span class="glyphicon glyphicon-align-right"></span> <span>glyphicon glyphicon-align-right</span></li>
+							<li><span class="glyphicon glyphicon-align-justify"></span> <span>glyphicon glyphicon-align-justify</span></li>
+							<li><span class="glyphicon glyphicons-list"></span> <span>glyphicon glyphicons-list</span></li>
+							<li><span class="glyphicon glyphicon-indent-left"></span> <span>glyphicon glyphicon-indent-left</span></li>
+							<li><span class="glyphicon glyphicon-indent-right"></span> <span>glyphicon glyphicon-indent-right</span></li>
+							<li><span class="glyphicon glyphicon-facetime-video"></span> <span>glyphicon glyphicon-facetime-video</span></li>
+							<li><span class="glyphicon glyphicon-picture"></span> <span>glyphicon glyphicon-picture</span></li>
+							<li><span class="glyphicon glyphicon-map-marker"></span> <span>glyphicon glyphicon-map-marker</span></li>
+							<li><span class="glyphicon glyphicon-adjust"></span> <span>glyphicon glyphicon-adjust</span></li>
+							<li><span class="glyphicon glyphicon-tint"></span> <span>glyphicon glyphicon-tint</span></li>
+							<li><span class="glyphicon glyphicon-edit"></span> <span>glyphicon glyphicon-edit</span></li>
+							<li><span class="glyphicon glyphicon-share"></span> <span>glyphicon glyphicon-share</span></li>
+							<li><span class="glyphicon glyphicon-check"></span> <span>glyphicon glyphicon-check</span></li>
+							<li><span class="glyphicon glyphicon-move"></span> <span>glyphicon glyphicon-move</span></li>
+							<li><span class="glyphicon glyphicon-step-backward"></span> <span>glyphicon glyphicon-step-backward</span></li>
+							<li><span class="glyphicon glyphicon-fast-backward"></span> <span>glyphicon glyphicon-fast-backward</span></li>
+							<li><span class="glyphicon glyphicon-backward"></span> <span>glyphicon glyphicon-backward</span></li>
+							<li><span class="glyphicon glyphicon-play"></span> <span>glyphicon glyphicon-play</span></li>
+							<li><span class="glyphicon glyphicon-pause"></span> <span>glyphicon glyphicon-pause</span></li>
+							<li><span class="glyphicon glyphicon-stop"></span> <span>glyphicon glyphicon-stop</span></li>
+							<li><span class="glyphicon glyphicon-forward"></span> <span>glyphicon glyphicon-forward</span></li>
+							<li><span class="glyphicon glyphicon-fast-forward"></span> <span>glyphicon glyphicon-fast-forward</span></li>
+							<li><span class="glyphicon glyphicon-step-forward"></span> <span>glyphicon glyphicon-step-forward</span></li>
+							<li><span class="glyphicon glyphicon-eject"></span> <span>glyphicon glyphicon-eject</span></li>
+							<li><span class="glyphicon glyphicon-chevron-left"></span> <span>glyphicon glyphicon-chevron-left</span></li>
+							<li><span class="glyphicon glyphicon-chevron-right"></span> <span>glyphicon glyphicon-chevron-right</span></li>
+							<li><span class="glyphicon glyphicon-plus-sign"></span> <span>glyphicon glyphicon-plus-sign</span></li>
+							<li><span class="glyphicon glyphicon-minus-sign"></span> <span>glyphicon glyphicon-minus-sign</span></li>
+							<li><span class="glyphicon glyphicon-remove-sign"></span> <span>glyphicon glyphicon-remove-sign</span></li>
+							<li><span class="glyphicon glyphicon-ok-sign"></span> <span>glyphicon glyphicon-ok-sign</span></li>
+							<li><span class="glyphicon glyphicon-question-sign"></span> <span>glyphicon glyphicon-question-sign</span></li>
+							<li><span class="glyphicon glyphicon-info-sign"></span> <span>glyphicon glyphicon-info-sign</span></li>
+							<li><span class="glyphicon glyphicon-screenshot"></span> <span>glyphicon glyphicon-screenshot</span></li>
+							<li><span class="glyphicon glyphicon-remove-circle"></span> <span>glyphicon glyphicon-remove-circle</span></li>
+							<li><span class="glyphicon glyphicon-ok-circle"></span> <span>glyphicon glyphicon-ok-circle</span></li>
+							<li><span class="glyphicon glyphicon-ban-circle"></span> <span>glyphicon glyphicon-ban-circle</span></li>
+							<li><span class="glyphicon glyphicon-arrow-left"></span> <span>glyphicon glyphicon-arrow-left</span></li>
+							<li><span class="glyphicon glyphicon-arrow-right"></span> <span>glyphicon glyphicon-arrow-right</span></li>
+							<li><span class="glyphicon glyphicon-arrow-up"></span> <span>glyphicon glyphicon-arrow-up</span></li>
+							<li><span class="glyphicon glyphicon-arrow-down"></span> <span>glyphicon glyphicon-arrow-down</span></li>
+							<li><span class="glyphicon glyphicon-share-alt"></span> <span>glyphicon glyphicon-share-alt</span></li>
+							<li><span class="glyphicon glyphicon-resize-full"></span> <span>glyphicon glyphicon-resize-full</span></li>
+							<li><span class="glyphicon glyphicon-resize-small"></span> <span>glyphicon glyphicon-resize-small</span></li>
+							<li><span class="glyphicon glyphicon-exclamation-sign"></span> <span>glyphicon glyphicon-exclamation-sign</span></li>
+							<li><span class="glyphicon glyphicon-gift"></span> <span>glyphicon glyphicon-gift</span></li>
+							<li><span class="glyphicon glyphicon-leaf"></span> <span>glyphicon glyphicon-leaf</span></li>
+							<li><span class="glyphicon glyphicon-fire"></span> <span>glyphicon glyphicon-fire</span></li>
+							<li><span class="glyphicon glyphicon-eye-open"></span> <span>glyphicon glyphicon-eye-open</span></li>
+							<li><span class="glyphicon glyphicon-eye-close"></span> <span>glyphicon glyphicon-eye-close</span></li>
+							<li><span class="glyphicon glyphicon-warning-sign"></span> <span>glyphicon glyphicon-warning-sign</span></li>
+							<li><span class="glyphicon glyphicon-plane"></span> <span>glyphicon glyphicon-plane</span></li>
+							<li><span class="glyphicon glyphicon-calendar"></span> <span>glyphicon glyphicon-calendar</span></li>
+							<li><span class="glyphicon glyphicon-random"></span> <span>glyphicon glyphicon-random</span></li>
+							<li><span class="glyphicon glyphicon-comment"></span> <span>glyphicon glyphicon-comment</span></li>
+							<li><span class="glyphicon glyphicon-magnet"></span> <span>glyphicon glyphicon-magnet</span></li>
+							<li><span class="glyphicon glyphicon-chevron-up"></span> <span>glyphicon glyphicon-chevron-up</span></li>
+							<li><span class="glyphicon glyphicon-chevron-down"></span> <span>glyphicon glyphicon-chevron-down</span></li>
+							<li><span class="glyphicon glyphicon-retweet"></span> <span>glyphicon glyphicon-retweet</span></li>
+							<li><span class="glyphicon glyphicon-shopping-cart"></span> <span>glyphicon glyphicon-shopping-cart</span></li>
+							<li><span class="glyphicon glyphicon-folder-close"></span> <span>glyphicon glyphicon-folder-close</span></li>
+							<li><span class="glyphicon glyphicon-folder-open"></span> <span>glyphicon glyphicon-folder-open</span></li>
+							<li><span class="glyphicon glyphicon-resize-vertical"></span> <span>glyphicon glyphicon-resize-vertical</span></li>
+							<li><span class="glyphicon glyphicon-resize-horizontal"></span> <span>glyphicon glyphicon-resize-horizontal</span></li>
+							<li><span class="glyphicon glyphicon-hdd"></span> <span>glyphicon glyphicon-hdd</span></li>
+							<li><span class="glyphicon glyphicon-bullhorn"></span> <span>glyphicon glyphicon-bullhorn</span></li>
+							<li><span class="glyphicon glyphicon-bell"></span> <span>glyphicon glyphicon-bell</span></li>
+							<li><span class="glyphicon glyphicon-certificate"></span> <span>glyphicon glyphicon-certificate</span></li>
+							<li><span class="glyphicon glyphicon-thumbs-up"></span> <span>glyphicon glyphicon-thumbs-up</span></li>
+							<li><span class="glyphicon glyphicon-thumbs-down"></span> <span>glyphicon glyphicon-thumbs-down</span></li>
+							<li><span class="glyphicon glyphicon-hand-right"></span> <span>glyphicon glyphicon-hand-right</span></li>
+							<li><span class="glyphicon glyphicon-hand-left"></span> <span>glyphicon glyphicon-hand-left</span></li>
+							<li><span class="glyphicon glyphicon-hand-up"></span> <span>glyphicon glyphicon-hand-up</span></li>
+							<li><span class="glyphicon glyphicon-hand-down"></span> <span>glyphicon glyphicon-hand-down</span></li>
+							<li><span class="glyphicon glyphicon-circle-arrow-right"></span> <span>glyphicon glyphicon-circle-arrow-right</span></li>
+							<li><span class="glyphicon glyphicon-circle-arrow-left"></span> <span>glyphicon glyphicon-circle-arrow-left</span></li>
+							<li><span class="glyphicon glyphicon-circle-arrow-up"></span> <span>glyphicon glyphicon-circle-arrow-up</span></li>
+							<li><span class="glyphicon glyphicon-circle-arrow-down"></span> <span>glyphicon glyphicon-circle-arrow-down</span></li>
+							<li><span class="glyphicon glyphicon-globe"></span> <span>glyphicon glyphicon-globe</span></li>
+							<li><span class="glyphicon glyphicon-wrench"></span> <span>glyphicon glyphicon-wrench</span></li>
+							<li><span class="glyphicon glyphicon-tasks"></span> <span>glyphicon glyphicon-tasks</span></li>
+							<li><span class="glyphicon glyphicon-filter"></span> <span>glyphicon glyphicon-filter</span></li>
+							<li><span class="glyphicon glyphicon-briefcase"></span> <span>glyphicon glyphicon-briefcase</span></li>
+							<li><span class="glyphicon glyphicon-fullscreen"></span> <span>glyphicon glyphicon-fullscreen</span></li>
+							<li><span class="glyphicon glyphicon-dashboard"></span> <span>glyphicon glyphicon-dashboard</span></li>
+							<li><span class="glyphicon glyphicon-paperclip"></span> <span>glyphicon glyphicon-paperclip</span></li>
+							<li><span class="glyphicon glyphicon-heart-empty"></span> <span>glyphicon glyphicon-heart-empty</span></li>
+							<li><span class="glyphicon glyphicon-link"></span> <span>glyphicon glyphicon-link</span></li>
+							<li><span class="glyphicon glyphicon-phone"></span> <span>glyphicon glyphicon-phone</span></li>
+							<li><span class="glyphicon glyphicon-pushpin"></span> <span>glyphicon glyphicon-pushpin</span></li>
+							<li><span class="glyphicon glyphicon-usd"></span> <span>glyphicon glyphicon-usd</span></li>
+							<li><span class="glyphicon glyphicon-gbp"></span> <span>glyphicon glyphicon-gbp</span></li>
+							<li><span class="glyphicon glyphicon-sort"></span> <span>glyphicon glyphicon-sort</span></li>
+							<li><span class="glyphicon glyphicon-sort-by-alphabet"></span> <span>glyphicon glyphicon-sort-by-alphabet</span></li>
+							<li><span class="glyphicon glyphicon-sort-by-alphabet-alt"></span> <span>glyphicon glyphicon-sort-by-alphabet-alt</span></li>
+							<li><span class="glyphicon glyphicon-sort-by-order"></span> <span>glyphicon glyphicon-sort-by-order</span></li>
+							<li><span class="glyphicon glyphicon-sort-by-order-alt"></span> <span>glyphicon glyphicon-sort-by-order-alt</span></li>
+							<li><span class="glyphicon glyphicon-sort-by-attributes"></span> <span>glyphicon glyphicon-sort-by-attributes</span></li>
+							<li><span class="glyphicon glyphicon-sort-by-attributes-alt"></span> <span>glyphicon glyphicon-sort-by-attributes-alt</span></li>
+							<li><span class="glyphicon glyphicon-unchecked"></span> <span>glyphicon glyphicon-unchecked</span></li>
+							<li><span class="glyphicon glyphicon-expand"></span> <span>glyphicon glyphicon-expand</span></li>
+							<li><span class="glyphicon glyphicon-collapse-down"></span> <span>glyphicon glyphicon-collapse-down</span></li>
+							<li><span class="glyphicon glyphicon-collapse-up"></span> <span>glyphicon glyphicon-collapse-up</span></li>
+							<li><span class="glyphicon glyphicon-log-in"></span> <span>glyphicon glyphicon-log-in</span></li>
+							<li><span class="glyphicon glyphicon-flash"></span> <span>glyphicon glyphicon-flash</span></li>
+							<li><span class="glyphicon glyphicon-log-out"></span> <span>glyphicon glyphicon-log-out</span></li>
+							<li><span class="glyphicon glyphicon-new-window"></span> <span>glyphicon glyphicon-new-window</span></li>
+							<li><span class="glyphicon glyphicon-record"></span> <span>glyphicon glyphicon-record</span></li>
+							<li><span class="glyphicon glyphicon-save"></span> <span>glyphicon glyphicon-save</span></li>
+							<li><span class="glyphicon glyphicon-open"></span> <span>glyphicon glyphicon-open</span></li>
+							<li><span class="glyphicon glyphicon-saved"></span> <span>glyphicon glyphicon-saved</span></li>
+							<li><span class="glyphicon glyphicon-import"></span> <span>glyphicon glyphicon-import</span></li>
+							<li><span class="glyphicon glyphicon-export"></span> <span>glyphicon glyphicon-export</span></li>
+							<li><span class="glyphicon glyphicon-send"></span> <span>glyphicon glyphicon-send</span></li>
+							<li><span class="glyphicon glyphicon-floppy-disk"></span> <span>glyphicon glyphicon-floppy-disk</span></li>
+							<li><span class="glyphicon glyphicon-floppy-saved"></span> <span>glyphicon glyphicon-floppy-saved</span></li>
+							<li><span class="glyphicon glyphicon-floppy-remove"></span> <span>glyphicon glyphicon-floppy-remove</span></li>
+							<li><span class="glyphicon glyphicon-floppy-save"></span> <span>glyphicon glyphicon-floppy-save</span></li>
+							<li><span class="glyphicon glyphicon-floppy-open"></span> <span>glyphicon glyphicon-floppy-open</span></li>
+							<li><span class="glyphicon glyphicon-credit-card"></span> <span>glyphicon glyphicon-credit-card</span></li>
+							<li><span class="glyphicon glyphicon-transfer"></span> <span>glyphicon glyphicon-transfer</span></li>
+							<li><span class="glyphicon glyphicon-cutlery"></span> <span>glyphicon glyphicon-cutlery</span></li>
+							<li><span class="glyphicon glyphicon-header"></span> <span>glyphicon glyphicon-header</span></li>
+							<li><span class="glyphicon glyphicon-compressed"></span> <span>glyphicon glyphicon-compressed</span></li>
+							<li><span class="glyphicon glyphicon-earphone"></span> <span>glyphicon glyphicon-earphone</span></li>
+							<li><span class="glyphicon glyphicon-phone-alt"></span> <span>glyphicon glyphicon-phone-alt</span></li>
+							<li><span class="glyphicon glyphicon-tower"></span> <span>glyphicon glyphicon-tower</span></li>
+							<li><span class="glyphicon glyphicon-stats"></span> <span>glyphicon glyphicon-stats</span></li>
+							<li><span class="glyphicon glyphicon-sd-video"></span> <span>glyphicon glyphicon-sd-video</span></li>
+							<li><span class="glyphicon glyphicon-hd-video"></span> <span>glyphicon glyphicon-hd-video</span></li>
+							<li><span class="glyphicon glyphicon-subtitles"></span> <span>glyphicon glyphicon-subtitles</span></li>
+							<li><span class="glyphicon glyphicon-sound-stereo"></span> <span>glyphicon glyphicon-sound-stereo</span></li>
+							<li><span class="glyphicon glyphicon-sound-dolby"></span> <span>glyphicon glyphicon-sound-dolby</span></li>
+							<li><span class="glyphicon glyphicon-sound-5-1"></span> <span>glyphicon glyphicon-sound-5-1</span></li>
+							<li><span class="glyphicon glyphicon-sound-6-1"></span> <span>glyphicon glyphicon-sound-6-1</span></li>
+							<li><span class="glyphicon glyphicon-sound-7-1"></span> <span>glyphicon glyphicon-sound-7-1</span></li>
+							<li><span class="glyphicon glyphicon-copyright-mark"></span> <span>glyphicon glyphicon-copyright-mark</span></li>
+							<li><span class="glyphicon glyphicon-registration-mark"></span> <span>glyphicon glyphicon-registration-mark</span></li>
+							<li><span class="glyphicon glyphicon-cloud-download"></span> <span>glyphicon glyphicon-cloud-download</span></li>
+							<li><span class="glyphicon glyphicon-cloud-upload"></span> <span>glyphicon glyphicon-cloud-upload</span></li>
+							<li><span class="glyphicon glyphicon-tree-conifer"></span> <span>glyphicon glyphicon-tree-conifer</span></li>
+							<li><span class="glyphicon glyphicon-tree-deciduous"></span> <span>glyphicon glyphicon-tree-deciduous</span></li>
+							<li><span class="glyphicon glyphicon-cd"></span> <span>glyphicon glyphicon-cd</span></li>
+							<li><span class="glyphicon glyphicon-save-file"></span> <span>glyphicon glyphicon-save-file</span></li>
+							<li><span class="glyphicon glyphicon-open-file"></span> <span>glyphicon glyphicon-open-file</span></li>
+							<li><span class="glyphicon glyphicon-level-up"></span> <span>glyphicon glyphicon-level-up</span></li>
+							<li><span class="glyphicon glyphicon-copy"></span> <span>glyphicon glyphicon-copy</span></li>
+							<li><span class="glyphicon glyphicon-paste"></span> <span>glyphicon glyphicon-paste</span></li>
+							<li><span class="glyphicon glyphicon-alert"></span> <span>glyphicon glyphicon-alert</span></li>
+							<li><span class="glyphicon glyphicon-equalizer"></span> <span>glyphicon glyphicon-equalizer</span></li>
+							<li><span class="glyphicon glyphicon-king"></span> <span>glyphicon glyphicon-king</span></li>
+							<li><span class="glyphicon glyphicon-queen"></span> <span>glyphicon glyphicon-queen</span></li>
+							<li><span class="glyphicon glyphicon-pawn"></span> <span>glyphicon glyphicon-pawn</span></li>
+							<li><span class="glyphicon glyphicon-bishop"></span> <span>glyphicon glyphicon-bishop</span></li>
+							<li><span class="glyphicon glyphicon-knight"></span> <span>glyphicon glyphicon-knight</span></li>
+							<li><span class="glyphicon glyphicon-baby-formula"></span> <span>glyphicon glyphicon-baby-formula</span></li>
+							<li><span class="glyphicon glyphicon-tent"></span> <span>glyphicon glyphicon-tent</span></li>
+							<li><span class="glyphicon glyphicon-blackboard"></span> <span>glyphicon glyphicon-blackboard</span></li>
+							<li><span class="glyphicon glyphicon-bed"></span> <span>glyphicon glyphicon-bed</span></li>
+							<li><span class="glyphicon glyphicon-apple"></span> <span>glyphicon glyphicon-apple</span></li>
+							<li><span class="glyphicon glyphicon-erase"></span> <span>glyphicon glyphicon-erase</span></li>
+							<li><span class="glyphicon glyphicon-hourglass"></span> <span>glyphicon glyphicon-hourglass</span></li>
+							<li><span class="glyphicon glyphicon-lamp"></span> <span>glyphicon glyphicon-lamp</span></li>
+							<li><span class="glyphicon glyphicon-duplicate"></span> <span>glyphicon glyphicon-duplicate</span></li>
+							<li><span class="glyphicon glyphicon-piggy-bank"></span> <span>glyphicon glyphicon-piggy-bank</span></li>
+							<li><span class="glyphicon glyphicon-scissors"></span> <span>glyphicon glyphicon-scissors</span></li>
+							<li><span class="glyphicon glyphicon-bitcoin"></span> <span>glyphicon glyphicon-bitcoin</span></li>
+							<li><span class="glyphicon glyphicon-btc"></span> <span>glyphicon glyphicon-btc</span></li>
+							<li><span class="glyphicon glyphicon-xbt"></span> <span>glyphicon glyphicon-xbt</span></li>
+							<li><span class="glyphicon glyphicon-yen"></span> <span>glyphicon glyphicon-yen</span></li>
+							<li><span class="glyphicon glyphicon-jpy"></span> <span>glyphicon glyphicon-jpy</span></li>
+							<li><span class="glyphicon glyphicon-ruble"></span> <span>glyphicon glyphicon-ruble</span></li>
+							<li><span class="glyphicon glyphicon-rub"></span> <span>glyphicon glyphicon-rub</span></li>
+							<li><span class="glyphicon glyphicon-scale"></span> <span>glyphicon glyphicon-scale</span></li>
+							<li><span class="glyphicon glyphicon-ice-lolly"></span> <span>glyphicon glyphicon-ice-lolly</span></li>
+							<li><span class="glyphicon glyphicon-ice-lolly-tasted"></span> <span>glyphicon glyphicon-ice-lolly-tasted</span></li>
+							<li><span class="glyphicon glyphicon-education"></span> <span>glyphicon glyphicon-education</span></li>
+							<li><span class="glyphicon glyphicon-option-horizontal"></span> <span>glyphicon glyphicon-option-horizontal</span></li>
+							<li><span class="glyphicon glyphicon-option-vertical"></span> <span>glyphicon glyphicon-option-vertical</span></li>
+							<li><span class="glyphicon glyphicon-menu-hamburger"></span> <span>glyphicon glyphicon-menu-hamburger</span></li>
+							<li><span class="glyphicon glyphicon-modal-window"></span> <span>glyphicon glyphicon-modal-window</span></li>
+							<li><span class="glyphicon glyphicon-oil"></span> <span>glyphicon glyphicon-oil</span></li>
+							<li><span class="glyphicon glyphicon-grain"></span> <span>glyphicon glyphicon-grain</span></li>
+							<li><span class="glyphicon glyphicon-sunglasses"></span> <span>glyphicon glyphicon-sunglasses</span></li>
+							<li><span class="glyphicon glyphicon-text-size"></span> <span>glyphicon glyphicon-text-size</span></li>
+							<li><span class="glyphicon glyphicon-text-color"></span> <span>glyphicon glyphicon-text-color</span></li>
+							<li><span class="glyphicon glyphicon-text-background"></span> <span>glyphicon glyphicon-text-background</span></li>
+							<li><span class="glyphicon glyphicon-object-align-top"></span> <span>glyphicon glyphicon-object-align-top</span></li>
+							<li><span class="glyphicon glyphicon-object-align-bottom"></span> <span>glyphicon glyphicon-object-align-bottom</span></li>
+							<li><span class="glyphicon glyphicon-object-align-horizontal"></span> <span>glyphicon glyphicon-object-align-horizontal</span></li>
+							<li><span class="glyphicon glyphicon-object-align-left"></span> <span>glyphicon glyphicon-object-align-left</span></li>
+							<li><span class="glyphicon glyphicon-object-align-vertical"></span> <span>glyphicon glyphicon-object-align-vertical</span></li>
+							<li><span class="glyphicon glyphicon-object-align-right"></span> <span>glyphicon glyphicon-object-align-right</span></li>
+							<li><span class="glyphicon glyphicon-triangle-right"></span> <span>glyphicon glyphicon-triangle-right</span></li>
+							<li><span class="glyphicon glyphicon-triangle-left"></span> <span>glyphicon glyphicon-triangle-left</span></li>
+							<li><span class="glyphicon glyphicon-triangle-bottom"></span> <span>glyphicon glyphicon-triangle-bottom</span></li>
+							<li><span class="glyphicon glyphicon-triangle-top"></span> <span>glyphicon glyphicon-triangle-top</span></li>
+							<li><span class="glyphicon glyphicon-console"></span> <span>glyphicon glyphicon-console</span></li>
+							<li><span class="glyphicon glyphicon-superscript"></span> <span>glyphicon glyphicon-superscript</span></li>
+							<li><span class="glyphicon glyphicon-subscript"></span> <span>glyphicon glyphicon-subscript</span></li>
+							<li><span class="glyphicon glyphicon-menu-left"></span> <span>glyphicon glyphicon-menu-left</span></li>
+							<li><span class="glyphicon glyphicon-menu-right"></span> <span>glyphicon glyphicon-menu-right</span></li>
+							<li><span class="glyphicon glyphicon-menu-down"></span> <span>glyphicon glyphicon-menu-down</span></li>
+							<li><span class="glyphicon glyphicon-menu-up"></span> <span>glyphicon glyphicon-menu-up</span></li>
+						</ul>
+					</div>
+				</div><!--/.row -->	
+				
+				
+				
+				<!-- Page Header -->
+					<div class="page-header">
+						<h1>Hawcons Sport &amp; Weather Icon Set</h1>
+						<p class="lead">Hawcons is a library of sport and weather icons and symbols.</p>
+					</div>
+				
+				
+					<!-- Start Row -->
+					<div class="row">
+						<div class="col-md-12">
+							<ul class="icons-list">
+								<li><span class="icon-basketball"></span> icon-basketball</li>
+								<li><span class="icon-basketball2"></span> icon-basketball2</li>
+								<li><span class="icon-basketball3"></span> icon-basketball3</li>
+								<li><span class="icon-basketball4"></span> icon-basketball4</li>
+								<li><span class="icon-baseball"></span> icon-baseball</li>
+								<li><span class="icon-baseball2"></span> icon-baseball2</li>
+								<li><span class="icon-tennis-ball"></span> icon-tennis-ball</li>
+								<li><span class="icon-tennis-ball2"></span> icon-tennis-ball2</li>
+								<li><span class="icon-tennis-ball3"></span> icon-tennis-ball3</li>
+								<li><span class="icon-tennis-ball4"></span> icon-tennis-ball4</li>
+								<li><span class="icon-bowling-ball"></span> icon-bowling-ball</li>
+								<li><span class="icon-bowling-ball2"></span> icon-bowling-ball2</li>
+								<li><span class="icon-billiard-ball"></span> icon-billiard-ball</li>
+								<li><span class="icon-billiard-ball2"></span> icon-billiard-ball2</li>
+								<li><span class="icon-soccer-ball"></span> icon-soccer-ball</li>
+								<li><span class="icon-soccer-ball2"></span> icon-soccer-ball2</li>
+								<li><span class="icon-soccer-court"></span> icon-soccer-court</li>
+								<li><span class="icon-soccer-court2"></span> icon-soccer-court2</li>
+								<li><span class="icon-football"></span> icon-football</li>
+								<li><span class="icon-football2"></span> icon-football2</li>
+								<li><span class="icon-football3"></span> icon-football3</li>
+								<li><span class="icon-football4"></span> icon-football4</li>
+								<li><span class="icon-baseball-set"></span> icon-baseball-set</li>
+								<li><span class="icon-baseball-set2"></span> icon-baseball-set2</li>
+								<li><span class="icon-trophy"></span> icon-trophy</li>
+								<li><span class="icon-trophy2"></span> icon-trophy2</li>
+								<li><span class="icon-trophy3"></span> icon-trophy3</li>
+								<li><span class="icon-trophy4"></span> icon-trophy4</li>
+								<li><span class="icon-trophy-one"></span> icon-trophy-one</li>
+								<li><span class="icon-trophy-one2"></span> icon-trophy-one2</li>
+								<li><span class="icon-medal"></span> icon-medal</li>
+								<li><span class="icon-medal2"></span> icon-medal2</li>
+								<li><span class="icon-medal3"></span> icon-medal3</li>
+								<li><span class="icon-medal4"></span> icon-medal4</li>
+								<li><span class="icon-medal5"></span> icon-medal5</li>
+								<li><span class="icon-medal6"></span> icon-medal6</li>
+								<li><span class="icon-medal7"></span> icon-medal7</li>
+								<li><span class="icon-medal8"></span> icon-medal8</li>
+								<li><span class="icon-weights"></span> icon-weights</li>
+								<li><span class="icon-weights2"></span> icon-weights2</li>
+								<li><span class="icon-tennis-racket"></span> icon-tennis-racket</li>
+								<li><span class="icon-tennis-racket2"></span> icon-tennis-racket2</li>
+								<li><span class="icon-basketball-hoop"></span> icon-basketball-hoop</li>
+								<li><span class="icon-basketball-hoop2"></span> icon-basketball-hoop2</li>
+								<li><span class="icon-table-tennis"></span> icon-table-tennis</li>
+								<li><span class="icon-table-tennis2"></span> icon-table-tennis2</li>
+								<li><span class="icon-volleyball"></span> icon-volleyball</li>
+								<li><span class="icon-volleyball2"></span> icon-volleyball2</li>
+								<li><span class="icon-stop-watch"></span> icon-stop-watch</li>
+								<li><span class="icon-stop-watch2"></span> icon-stop-watch2</li>
+								<li><span class="icon-stop-watch3"></span> icon-stop-watch3</li>
+								<li><span class="icon-stop-watch4"></span> icon-stop-watch4</li>
+								<li><span class="icon-hockey-stick"></span> icon-hockey-stick</li>
+								<li><span class="icon-hockey-stick2"></span> icon-hockey-stick2</li>
+								<li><span class="icon-hockey-sticks"></span> icon-hockey-sticks</li>
+								<li><span class="icon-hockey-sticks2"></span> icon-hockey-sticks2</li>
+								<li><span class="icon-shuttlecock"></span> icon-shuttlecock</li>
+								<li><span class="icon-shuttlecock2"></span> icon-shuttlecock2</li>
+								<li><span class="icon-golf"></span> icon-golf</li>
+								<li><span class="icon-golf2"></span> icon-golf2</li>
+								<li><span class="icon-move"></span> icon-move</li>
+								<li><span class="icon-move2"></span> icon-move2</li>
+								<li><span class="icon-clipboard-move"></span> icon-clipboard-move</li>
+								<li><span class="icon-clipboard-move2"></span> icon-clipboard-move2</li>
+								<li><span class="icon-award"></span> icon-award</li>
+								<li><span class="icon-award2"></span> icon-award2</li>
+								<li><span class="icon-award3"></span> icon-award3</li>
+								<li><span class="icon-award4"></span> icon-award4</li>
+								<li><span class="icon-award5"></span> icon-award5</li>
+								<li><span class="icon-award6"></span> icon-award6</li>
+								<li><span class="icon-award7"></span> icon-award7</li>
+								<li><span class="icon-award8"></span> icon-award8</li>
+								<li><span class="icon-boxing-glove"></span> icon-boxing-glove</li>
+								<li><span class="icon-boxing-glove2"></span> icon-boxing-glove2</li>
+								<li><span class="icon-whistle"></span> icon-whistle</li>
+								<li><span class="icon-whistle2"></span> icon-whistle2</li>
+								<li><span class="icon-volleyball-water"></span> icon-volleyball-water</li>
+								<li><span class="icon-volleyball-water2"></span> icon-volleyball-water2</li>
+								<li><span class="icon-checkered-flag"></span> icon-checkered-flag</li>
+								<li><span class="icon-checkered-flag2"></span> icon-checkered-flag2</li>
+								<li><span class="icon-target-arrow"></span> icon-target-arrow</li>
+								<li><span class="icon-target-arrow2"></span> icon-target-arrow2</li>
+								<li><span class="icon-target"></span> icon-target</li>
+								<li><span class="icon-target2"></span> icon-target2</li>
+								<li><span class="icon-sailing-boat"></span> icon-sailing-boat</li>
+								<li><span class="icon-sailing-boat2"></span> icon-sailing-boat2</li>
+								<li><span class="icon-sailing-boat-water"></span> icon-sailing-boat-water</li>
+								<li><span class="icon-sailing-boat-water2"></span> icon-sailing-boat-water2</li>
+								<li><span class="icon-bowling-pins"></span> icon-bowling-pins</li>
+								<li><span class="icon-bowling-pins2"></span> icon-bowling-pins2</li>
+								<li><span class="icon-bowling-pin-ball"></span> icon-bowling-pin-ball</li>
+								<li><span class="icon-bowling-pin-ball2"></span> icon-bowling-pin-ball2</li>
+								<li><span class="icon-diving-goggles"></span> icon-diving-goggles</li>
+								<li><span class="icon-diving-goggles2"></span> icon-diving-goggles2</li>
+								<li><span class="icon-sports-shoe"></span> icon-sports-shoe</li>
+								<li><span class="icon-sports-shoe2"></span> icon-sports-shoe2</li>
+								<li><span class="icon-soccer-shoe"></span> icon-soccer-shoe</li>
+								<li><span class="icon-soccer-shoe2"></span> icon-soccer-shoe2</li>
+								<li><span class="icon-ice-skate"></span> icon-ice-skate</li>
+								<li><span class="icon-ice-skate2"></span> icon-ice-skate2</li>
+								<li><span class="icon-cloud"></span> icon-cloud</li>
+								<li><span class="icon-cloud2"></span> icon-cloud2</li>
+								<li><span class="icon-cloud-sun"></span> icon-cloud-sun</li>
+								<li><span class="icon-cloud-sun2"></span> icon-cloud-sun2</li>
+								<li><span class="icon-cloud-moon"></span> icon-cloud-moon</li>
+								<li><span class="icon-cloud-moon2"></span> icon-cloud-moon2</li>
+								<li><span class="icon-cloud-rain"></span> icon-cloud-rain</li>
+								<li><span class="icon-cloud-rain2"></span> icon-cloud-rain2</li>
+								<li><span class="icon-cloud-sun-rain"></span> icon-cloud-sun-rain</li>
+								<li><span class="icon-cloud-sun-rain2"></span> icon-cloud-sun-rain2</li>
+								<li><span class="icon-cloud-moon-rain"></span> icon-cloud-moon-rain</li>
+								<li><span class="icon-cloud-moon-rain2"></span> icon-cloud-moon-rain2</li>
+								<li><span class="icon-cloud-snow"></span> icon-cloud-snow</li>
+								<li><span class="icon-cloud-snow2"></span> icon-cloud-snow2</li>
+								<li><span class="icon-cloud-sun-snow"></span> icon-cloud-sun-snow</li>
+								<li><span class="icon-cloud-sun-snow2"></span> icon-cloud-sun-snow2</li>
+								<li><span class="icon-cloud-moon-snow"></span> icon-cloud-moon-snow</li>
+								<li><span class="icon-cloud-moon-snow2"></span> icon-cloud-moon-snow2</li>
+								<li><span class="icon-cloud-lightning"></span> icon-cloud-lightning</li>
+								<li><span class="icon-cloud-lightning2"></span> icon-cloud-lightning2</li>
+								<li><span class="icon-cloud-sun-lightning"></span> icon-cloud-sun-lightning</li>
+								<li><span class="icon-cloud-sun-lightning2"></span> icon-cloud-sun-lightning2</li>
+								<li><span class="icon-cloud-moon-lightning"></span> icon-cloud-moon-lightning</li>
+								<li><span class="icon-cloud-moon-lightning2"></span> icon-cloud-moon-lightning2</li>
+								<li><span class="icon-cloud-wind"></span> icon-cloud-wind</li>
+								<li><span class="icon-cloud-wind2"></span> icon-cloud-wind2</li>
+								<li><span class="icon-cloud-raindrops"></span> icon-cloud-raindrops</li>
+								<li><span class="icon-cloud-raindrops2"></span> icon-cloud-raindrops2</li>
+								<li><span class="icon-cloud-sun-raindrops"></span> icon-cloud-sun-raindrops</li>
+								<li><span class="icon-cloud-sun-raindrops2"></span> icon-cloud-sun-raindrops2</li>
+								<li><span class="icon-cloud-moon-raindrops"></span> icon-cloud-moon-raindrops</li>
+								<li><span class="icon-cloud-moon-raindrops2"></span> icon-cloud-moon-raindrops2</li>
+								<li><span class="icon-cloud-snowflakes"></span> icon-cloud-snowflakes</li>
+								<li><span class="icon-cloud-snowflakes2"></span> icon-cloud-snowflakes2</li>
+								<li><span class="icon-cloud-sun-snowflakes"></span> icon-cloud-sun-snowflakes</li>
+								<li><span class="icon-cloud-sun-snowflakes2"></span> icon-cloud-sun-snowflakes2</li>
+								<li><span class="icon-cloud-moon-snowflakes"></span> icon-cloud-moon-snowflakes</li>
+								<li><span class="icon-cloud-moon-snowflakes2"></span> icon-cloud-moon-snowflakes2</li>
+								<li><span class="icon-clouds"></span> icon-clouds</li>
+								<li><span class="icon-clouds2"></span> icon-clouds2</li>
+								<li><span class="icon-clouds3"></span> icon-clouds3</li>
+								<li><span class="icon-clouds4"></span> icon-clouds4</li>
+								<li><span class="icon-cloud-add"></span> icon-cloud-add</li>
+								<li><span class="icon-cloud-add2"></span> icon-cloud-add2</li>
+								<li><span class="icon-cloud-remove"></span> icon-cloud-remove</li>
+								<li><span class="icon-cloud-remove2"></span> icon-cloud-remove2</li>
+								<li><span class="icon-cloud-error"></span> icon-cloud-error</li>
+								<li><span class="icon-cloud-error2"></span> icon-cloud-error2</li>
+								<li><span class="icon-cloud-fog"></span> icon-cloud-fog</li>
+								<li><span class="icon-cloud-fog2"></span> icon-cloud-fog2</li>
+								<li><span class="icon--cloud-sun-fog"></span> icon--cloud-sun-fog</li>
+								<li><span class="icon--cloud-sun-fog2"></span> icon--cloud-sun-fog2</li>
+								<li><span class="icon-cloud-moon-fog"></span> icon-cloud-moon-fog</li>
+								<li><span class="icon-cloud-moon-fog2"></span> icon-cloud-moon-fog2</li>
+								<li><span class="icon-moon-stars"></span> icon-moon-stars</li>
+								<li><span class="icon-moon-stars2"></span> icon-moon-stars2</li>
+								<li><span class="icon-moon"></span> icon-moon</li>
+								<li><span class="icon-moon2"></span> icon-moon2</li>
+								<li><span class="icon-sun"></span> icon-sun</li>
+								<li><span class="icon-sun2"></span> icon-sun2</li>
+								<li><span class="icon-sunrise"></span> icon-sunrise</li>
+								<li><span class="icon-sunrise2"></span> icon-sunrise2</li>
+								<li><span class="icon-sunset"></span> icon-sunset</li>
+								<li><span class="icon-sunset2"></span> icon-sunset2</li>
+								<li><span class="icon-sunset3"></span> icon-sunset3</li>
+								<li><span class="icon-sunset4"></span> icon-sunset4</li>
+								<li><span class="icon-sunset5"></span> icon-sunset5</li>
+								<li><span class="icon-sunset6"></span> icon-sunset6</li>
+								<li><span class="icon-rainbow"></span> icon-rainbow</li>
+								<li><span class="icon-rainbow2"></span> icon-rainbow2</li>
+								<li><span class="icon-umbrella"></span> icon-umbrella</li>
+								<li><span class="icon-umbrella2"></span> icon-umbrella2</li>
+								<li><span class="icon-raindrops"></span> icon-raindrops</li>
+								<li><span class="icon-raindrops2"></span> icon-raindrops2</li>
+								<li><span class="icon-raindrop"></span> icon-raindrop</li>
+								<li><span class="icon-raindrop2"></span> icon-raindrop2</li>
+								<li><span class="icon-sunglasses"></span> icon-sunglasses</li>
+								<li><span class="icon-sunglasses2"></span> icon-sunglasses2</li>
+								<li><span class="icon-stars"></span> icon-stars</li>
+								<li><span class="icon-stars2"></span> icon-stars2</li>
+								<li><span class="icon-moonrise"></span> icon-moonrise</li>
+								<li><span class="icon-moonrise2"></span> icon-moonrise2</li>
+								<li><span class="icon-moonset"></span> icon-moonset</li>
+								<li><span class="icon-moonset2"></span> icon-moonset2</li>
+								<li><span class="icon-wind"></span> icon-wind</li>
+								<li><span class="icon-wind2"></span> icon-wind2</li>
+							</ul>
+						</div>
+					</div>		
+		
+		    </div> <!-- /container -->
+		</main><!-- /.main-content -->
+	
+		
+		<!--Start Footer -->
+		<div id="footer">
+			<!-- Start Pre Footer -->
+			<footer class="pre-footer">
+				<div class="container">
+					<div class="foot-left">
+						<ol class="breadcrumb">
+							<li><a href="#"><em class="fa fa-home"></em></a></li>
+							<li><a href="#">Our Club</a></li>
+							<li class="active">Events</li>
+						</ol>
+					</div>
+					
+					<div class="foot-right">
+						
+					</div>
+				</div>
+			</footer>
+			
+			
+			
+			<!-- Start Footer -->
+			<footer class="main-footer">
+				<div class="container">
+					<!-- Start Row -->
+					<div class="row">
+						<div class="col-md-3">
+							<div class="widget widget-contact">
+								<h3>Contact Us</h3>
+								<ul class="list-styled list-bordered">
+									<li><strong>Telephone Enquiry:</strong><br/>+61 555 555 1234</li>
+									<li><strong>Facsimile:</strong><br/>+61 555 555 1234</li>
+									<li><a href="#">info@sports.com</a></li>
+								</ul>
+							</div>		
+						</div>
+						
+						<div class="col-md-3">
+							<div class="widget widget-text">
+								<h3>Our Mission</h3>
+								<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+							</div>
+						</div>
+						
+						<div class="col-md-3">
+							<div class="widget widget-paired-list">
+								<h3>Club House</h3>
+								<ul class="list-paired">
+									<li><em class="fa fa-clock-o scale-80 feat-color"></em> Monday <span>9am - 10pm</span></li>
+									<li><em class="fa fa-clock-o scale-80 feat-color"></em> Tue-Fri <span>9am - 9pm</span></li>
+									<li><em class="fa fa-clock-o scale-80 feat-color"></em> Sat-Sun <span>7am - 9pm</span></li>
+									<li><em class="fa fa-clock-o scale-80 feat-color"></em> Holidays <span>9am - 1pm</span></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-3">
+							<div class="widget widget-brand-address">
+								<h3><img class="logo-img" src="img/logo@2x.png" alt="Logo" /></h3>
+								<ul class="list-styled list-bordered">
+									<li><strong>Address:</strong><br/>310 Ashfield Ave, Suburbia, Brisbane, Australia, 4000 </li>
+									<li><a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28369.415587766056!2d152.98820641500242!3d-27.276331333808365!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b93fb9c9442c901%3A0x10b5aa2f23d9e4e1!2sAshford+Circuit%2C+Petrie+QLD+4502!5e0!3m2!1sen!2sau!4v1406620130126" class="fancybox fancybox.iframe">View on map</a></li>
+								</ul>
+							</div>
+						</div>	
+					</div><!--/.row -->
+				</div>
+			</footer>
+			
+			
+			
+			<!-- Start Post Footer -->
+			<footer class="post-footer">
+				<div class="container">
+					<div class="foot-left">
+						<div>&copy; DesignLots <span class="copy-year"></span>. All rights reserved.</div> 
+					</div>
+					
+					<div class="foot-right">
+						<ul class="social-links">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-globe"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div><!--/footer -->
+	
+	
+	
+    	<!-- JavaScript
+	   	================================================== -->
+	   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	   	<script>window.jQuery || document.write('<script src="./library/js/vendor/jquery.min.js"><\/script>')</script>
+	   	<script src="./library/bs/js/bootstrap.min.js"></script>
+	   	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	   	<script src="./library/js/ie10-viewport-bug-workaround.js"></script>
+	   
+	    <script type="text/javascript" src="./library/js/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="./library/js/imagesloaded.pkgd.min.js"></script>
+		<script type="text/javascript" src="./library/js/owl-carousel/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="./library/js/cleantabs.jquery.js"></script>
+		<script type="text/javascript" src="./library/js/fancybox/jquery.fancybox.js?v=2.1.4"></script>
+		<script type="text/javascript" src="./library/js/jquery.scrollUp.min.js"></script>
+		<script type="text/javascript" src="./library/js/valign.js"></script>
+		<script type="text/javascript" src="./library/js/anijs/anijs-min.js"></script>
+		<script type="text/javascript" src="./library/js/anijs/anijs-helper-scrollreveal.js"></script>
+		<script type="text/javascript" src="./library/js/anijs/anijs-helper-dom.js"></script>
+		<script type="text/javascript" src="./library/js/menuzord.js"></script>
+		<script type="text/javascript" src="./library/js/jquery.stickit.js"></script>
+		<script type="text/javascript" src="./library/js/scrollIt.min.js"></script>
+		<script type="text/javascript" src="./library/js/jquery.countdown.min.js"></script>
+		<script type="text/javascript" src="./library/js/tooltipster/tooltipster.bundle.min.js"></script>
+		<script type="text/javascript" src="./library/js/footer-reveal.min.js"></script>
+		<script type="text/javascript" src="./library/js/headhesive.min.js"></script>
+		<script type="text/javascript" src="./library/js/jquery.stellar.min.js"></script>
+		<script type="text/javascript" src="./library/js/jquery.countTo.js"></script>
+		<script type="text/javascript" src="./library/js/typed.min.js"></script>
+		<script type="text/javascript" src="./library/js/jquery.waypoints.min.js"></script>
+		<script type="text/javascript" src="./library/js/slidebars/slidebars.min.js"></script>
+		<script type="text/javascript" src="./library/js/tendina.min.js"></script>
+		<script type="text/javascript" src="./library/js/jquery.sidr.js"></script>
+		<script type="text/javascript" src="./library/js/pace.js"></script>
+		<script type="text/javascript" src="./library/js/list.js"></script>
+		<script type="text/javascript" src="./library/js/jquery.fitvids.js"></script>
+		
+		<!-- Forms JS Files -->
+		<script type="text/javascript" src="./library/js/skyforms/js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="./library/js/skyforms/js/jquery.form.min.js"></script>
+		<script type="text/javascript" src="./library/js/skyforms/js/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="./library/js/skyforms/js/jquery.maskedinput.min.js"></script>
+		<script type="text/javascript" src="./library/js/skyforms/js/jquery.modal.js"></script>
+		<!--[if lt IE 10]>
+		<script type="text/javascript" src="./library/js/skyforms/js/jquery.placeholder.min.js"></script>
+		<![endif]-->		
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		<!-- RS5.0 Core JS Files -->
+		<script type="text/javascript" src="./library/js/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+		<script type="text/javascript" src="./library/js/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+		<script type="text/javascript" src="./library/js/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+		<script type="text/javascript" src="./library/js/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+		<script type="text/javascript" src="./library/js/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+		<script type="text/javascript" src="./library/js/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+		  
+		<!-- Scripts Go -->
+		<script src="./js/validate-contact.js"></script>
+		<script src="./js/scripts.js"></script>
+	</body>
+</html>
