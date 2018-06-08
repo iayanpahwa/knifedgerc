@@ -460,7 +460,7 @@ jQuery(document).ready(function() {
 -------------------------------------------------- */
 $(document).ready(function() {
 	// Single Clock	
-	$('#clock').countdown('2020/10/10', function(event) {
+	$('#clock').countdown('2018/06/08', function(event) {
 		var $this = $(this).html(event.strftime(''
 	     + '<span>%w</span> weeks '
 	     + '<span>%d</span> days '

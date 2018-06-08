@@ -2292,3 +2292,7 @@ blockquote small::before {
 /* --------------------------------------------------
  Custom Author Styles
 -------------------------------------------------- */
+
+.background-grey {
+  background: #d4d4d4;   
+}
