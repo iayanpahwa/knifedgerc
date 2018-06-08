@@ -2296,3 +2296,8 @@ blockquote small::before {
 .background-grey {
   background: #d4d4d4;   
 }
+
+.background-translucent {
+    background: rgba(0,0,0,0.3);
+    padding: 30px;
+}
