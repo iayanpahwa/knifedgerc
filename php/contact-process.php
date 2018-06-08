@@ -2,7 +2,7 @@
 session_start();
 if( isset($_POST['name']) && strtoupper($_POST['captcha']) == $_SESSION['captcha_id'] )
 {
-	$to = 'knifedgerc@gmail.com'; // Replace with your email	
+	$to = $_POST['email']; // Replace with your email	
 	$subject = 'Thank you for subcribing!'; // Replace with your $subject
 	$headers = 'From: ' . $_POST['email'] . "\r\n" . 'Reply-To: ' . $_POST['email'];	
 	
